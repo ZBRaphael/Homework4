@@ -1,8 +1,5 @@
 # Oakland Crime Statistics 2011 to 2016 
 
-## 数据预处理
-首先对数据进行预处理，将时间的单词
-
 
 ```python
 import numpy as np # linear algebra
@@ -36,6 +33,10 @@ print('\n'.join(os.listdir("./oakland-crime-statistics-2011-to-2016/")))
     socrata_metadata_records-for-2013.json
     records-for-2013.csv
 
+
+## 数据预处理
+
+首先对数据进行预处理，将时间的换算成秒，将时间划分成几个时间段，并且将数据中的空值直接去除。
 
 
 ```python
@@ -223,9 +224,9 @@ crimes_2012 = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2
 crimes_2012.dropna(thresh=9, inplace=True)
 crimes_2012 = prep_data(crimes_2012)
 crimes_2012.rename(index=str, columns={"Location ": "address"}, inplace=True)
-crimes_2012["Area Id"] = crimes_2013["Area Id"].astype(int)
+crimes_2012["Area Id"] = crimes_2012["Area Id"].astype(int)
 crimes_2012["Priority"].replace(0.0, 1.0, inplace=True)
-crimes_2012["Priority"] = crimes_2013["Priority"].astype(int)
+crimes_2012["Priority"] = crimes_2012["Priority"].astype(int)
 crimes_2012.head(2)
 ```
 
@@ -270,9 +271,9 @@ crimes_2012.head(2)
     <tr>
       <td>0</td>
       <td>2012-01-01T00:00:25.000</td>
-      <td>2.0</td>
+      <td>2</td>
       <td>32Y</td>
-      <td>1.0</td>
+      <td>2</td>
       <td>415GS</td>
       <td>415 GUNSHOTS</td>
       <td>2012-01-01T00:40:27.000</td>
@@ -287,9 +288,9 @@ crimes_2012.head(2)
     <tr>
       <td>1</td>
       <td>2012-01-01T00:00:27.000</td>
-      <td>2.0</td>
+      <td>2</td>
       <td>30Y</td>
-      <td>2.0</td>
+      <td>2</td>
       <td>415GS</td>
       <td>415 GUNSHOTS</td>
       <td>2012-01-01T01:34:31.000</td>
@@ -761,6 +762,8 @@ def box_plot(all_data):
     plt.show()
 ```
 
+### 每年犯罪持续时间盒图
+
 
 ```python
 box = []
@@ -784,7 +787,7 @@ box_plot(box)
 
 
 
-![png](output_23_2.png)
+![png](output_24_2.png)
 
 
 ### beats的频数统计
@@ -862,8 +865,29 @@ for row in ax:
 
 
 
-![png](output_25_1.png)
+![png](output_26_1.png)
 
+
+### 每年的报警数量
+
+
+```python
+fig, ax = plt.subplots(nrows=2, ncols=3)
+plt.subplots_adjust(left=0, right=2.5, top=3, bottom=1)
+crimes_list = [crimes_2011, crimes_2012, crimes_2013, crimes_2014, crimes_2015, crimes_2016]
+i = 0
+for row in ax:
+    for col in row:
+        col.set_title(str(2011 + i))
+        sns.countplot(data=crimes_list[i], x="Priority", ax=col, palette="Set1")
+        i+=1
+```
+
+
+![png](output_28_0.png)
+
+
+### 每年报警的时间段分布
 
 
 ```python
@@ -873,35 +897,26 @@ i = 0
 for row in ax:
     for col in row:
         col.set_title(str(2011 + i))
-        temp = crimes_list[i].groupby(by=["Beat", "Priority"],sort=True, as_index=False).count().rename(index=str, columns={"Create Time": "Count"})[["Beat", "Priority", "Count", "time_of_the_day"]]
-        beats_prio_1 = list(temp[temp["Priority"] == 1].nlargest(5, "Count")["Beat"].values)
-        beats_prio_2 = list(temp[temp["Priority"] == 2].nlargest(5, "Count")["Beat"].values)
-        sns.countplot(data=crimes_list[i][crimes_list[i]["Beat"].isin(beats_prio_1 + beats_prio_2)], x="Beat", hue="time_of_the_day",palette="Set1", ax=col)
-        i += 1
+        sns.countplot(data=crimes_list[i], x="Priority", hue="time_of_the_day", palette="Set1", ax=col)
+        i+=1
 ```
 
 
-![png](output_26_0.png)
+![png](output_30_0.png)
 
+
+从上述的图中可以看出优先级为1的案件少，优先级为2的案件多，案件的高发时间段为12PM-6PM
+
+## 缺失数据的处理
 
 
 ```python
-for i, x in enumerate(crimes_list):
-    x["Year"] = 2011 + i
-combined = crimes_2011
-for x in range(1,len(crimes_list)):
-    combined = combined.append(crimes_list[x], ignore_index=True)
-combined.tail(5)
+crimes_2011_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2011.csv", keep_default_na=False)
+crimes_2011_miss.head(2)
 ```
 
-    /usr/local/lib/python3.7/site-packages/pandas/core/frame.py:7123: FutureWarning: Sorting because non-concatenation axis is not aligned. A future version
-    of pandas will change to not sort by default.
-    
-    To accept the future behavior, pass 'sort=False'.
-    
-    To retain the current behavior and silence the warning, pass 'sort=True'.
-    
-      sort=sort,
+    /Users/zhangbo/Library/Python/3.7/lib/python/site-packages/IPython/core/interactiveshell.py:3058: DtypeWarning: Columns (5) have mixed types. Specify dtype option on import or set low_memory=False.
+      interactivity=interactivity, compiler=compiler, result=result)
 
 
 
@@ -925,125 +940,44 @@ combined.tail(5)
   <thead>
     <tr style="text-align: right;">
       <th></th>
+      <th>Agency</th>
+      <th>Create Time</th>
+      <th>Location</th>
       <th>Area Id</th>
       <th>Beat</th>
-      <th>Closed Time</th>
-      <th>Create Time</th>
-      <th>Incident Type Description</th>
-      <th>Incident Type Id</th>
-      <th>Location</th>
-      <th>Location 1</th>
       <th>Priority</th>
-      <th>Year</th>
-      <th>Zip Codes</th>
-      <th>address</th>
-      <th>day_of_the_month</th>
-      <th>day_of_the_week</th>
-      <th>month_of_the_year</th>
-      <th>time_between_creation_and_closed_seconds</th>
-      <th>time_of_the_day</th>
+      <th>Incident Type Id</th>
+      <th>Incident Type Description</th>
+      <th>Event Number</th>
+      <th>Closed Time</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1044499</td>
-      <td>P1</td>
-      <td>02Y</td>
-      <td>2016-08-01T00:36:46.000</td>
-      <td>2016-07-31T23:43:51.000</td>
-      <td>DRUNK ON THE STREET</td>
-      <td>922</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>2.0</td>
-      <td>2016</td>
-      <td>NaN</td>
-      <td>WENDY'S ST&amp;PINE ST</td>
-      <td>31</td>
-      <td>4</td>
-      <td>7</td>
-      <td>3175</td>
-      <td>6PM-00AM</td>
+      <td>0</td>
+      <td>OP</td>
+      <td>2011-01-01T00:00:00.000</td>
+      <td>ST&amp;SAN PABLO AV</td>
+      <td>1</td>
+      <td>06X</td>
+      <td>1</td>
+      <td>PDOA</td>
+      <td>POSSIBLE DEAD PERSON</td>
+      <td>LOP110101000001</td>
+      <td>2011-01-01T00:28:17.000</td>
     </tr>
     <tr>
-      <td>1044500</td>
-      <td>P1</td>
-      <td>02Y</td>
-      <td>2016-07-31T23:58:03.000</td>
-      <td>2016-07-31T23:45:50.000</td>
-      <td>415 GUNSHOTS</td>
+      <td>1</td>
+      <td>OP</td>
+      <td>2011-01-01T00:01:11.000</td>
+      <td>ST&amp;HANNAH ST</td>
+      <td>1</td>
+      <td>07X</td>
+      <td>1</td>
       <td>415GS</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>2.0</td>
-      <td>2016</td>
-      <td>NaN</td>
-      <td>WHITMORE ST&amp;WOOD ST</td>
-      <td>31</td>
-      <td>4</td>
-      <td>7</td>
-      <td>733</td>
-      <td>6PM-00AM</td>
-    </tr>
-    <tr>
-      <td>1044501</td>
-      <td>P3</td>
-      <td>26Y</td>
-      <td>2016-08-01T00:08:00.000</td>
-      <td>2016-07-31T23:50:54.000</td>
-      <td>DISTURBANCE-NEIGHBOR</td>
-      <td>415N</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>2.0</td>
-      <td>2016</td>
-      <td>NaN</td>
-      <td>WHITTLE 69TH AV</td>
-      <td>31</td>
-      <td>4</td>
-      <td>7</td>
-      <td>1026</td>
-      <td>6PM-00AM</td>
-    </tr>
-    <tr>
-      <td>1044502</td>
-      <td>P2</td>
-      <td>19X</td>
-      <td>2016-08-01T01:33:31.000</td>
-      <td>2016-07-31T23:56:29.000</td>
-      <td>SUSPICIOUS PERSON</td>
-      <td>912</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>2.0</td>
-      <td>2016</td>
-      <td>NaN</td>
-      <td>WHITTLE LOOMIS CT</td>
-      <td>31</td>
-      <td>4</td>
-      <td>7</td>
-      <td>5822</td>
-      <td>6PM-00AM</td>
-    </tr>
-    <tr>
-      <td>1044503</td>
-      <td>P3</td>
-      <td>29X</td>
-      <td>2016-08-01T00:16:16.000</td>
-      <td>2016-07-31T23:57:31.000</td>
-      <td>415 FAMILY</td>
-      <td>415</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>2.0</td>
-      <td>2016</td>
-      <td>NaN</td>
-      <td>WYMAN LACEY AV</td>
-      <td>31</td>
-      <td>4</td>
-      <td>7</td>
-      <td>1125</td>
-      <td>6PM-00AM</td>
+      <td>415 GUNSHOTS</td>
+      <td>LOP110101000002</td>
+      <td>2011-01-01T01:12:56.000</td>
     </tr>
   </tbody>
 </table>
@@ -1053,138 +987,708 @@ combined.tail(5)
 
 
 ```python
-temp = combined.groupby(by=["Year", "Priority"]).mean()
-prio_1 = temp.loc[list(zip(range(2011,2017),[1.0] * 6))]["time_between_creation_and_closed_seconds"]
-prio_2 = temp.loc[list(zip(range(2011,2017),[2.0] * 6))]["time_between_creation_and_closed_seconds"]
-plt.plot(range(2011, 2017),prio_1, marker='o', markerfacecolor='black', markersize=8, color='skyblue', linewidth=2, label="Avg Closing Time Priority 1")
-plt.plot(range(2011, 2017), prio_2, marker='*',color="red", markersize=10, markerfacecolor='black', linewidth=2, label="Avg Closing Time Priority 2")
-plt.legend()
+crimes_2012_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2012.csv", keep_default_na=False)
+crimes_2012_miss.head(2)
+```
+
+    /Users/zhangbo/Library/Python/3.7/lib/python/site-packages/IPython/core/interactiveshell.py:3058: DtypeWarning: Columns (4) have mixed types. Specify dtype option on import or set low_memory=False.
+      interactivity=interactivity, compiler=compiler, result=result)
+
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Agency</th>
+      <th>Create Time</th>
+      <th>Area Id</th>
+      <th>Beat</th>
+      <th>Priority</th>
+      <th>Incident Type Id</th>
+      <th>Incident Type Description</th>
+      <th>Event Number</th>
+      <th>Closed Time</th>
+      <th>Location 1</th>
+      <th>Zip Codes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>OP</td>
+      <td>2012-01-01T00:00:25.000</td>
+      <td>2</td>
+      <td>32Y</td>
+      <td>2</td>
+      <td>415GS</td>
+      <td>415 GUNSHOTS</td>
+      <td>LOP120101000004</td>
+      <td>2012-01-01T00:40:27.000</td>
+      <td>{'human_address': '{"address": "OLIVE ST", "ci...</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>OP</td>
+      <td>2012-01-01T00:00:27.000</td>
+      <td>2</td>
+      <td>30Y</td>
+      <td>2</td>
+      <td>415GS</td>
+      <td>415 GUNSHOTS</td>
+      <td>LOP120101000003</td>
+      <td>2012-01-01T01:34:31.000</td>
+      <td>{'human_address': '{"address": "AV&amp;MACARTHUR B...</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+crimes_2013_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2013.csv", keep_default_na=False)
+crimes_2013_miss.head(2)
 ```
 
 
 
 
-    <matplotlib.legend.Legend at 0x13b6df6d0>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Agency</th>
+      <th>Create Time</th>
+      <th>Location</th>
+      <th>Area Id</th>
+      <th>Beat</th>
+      <th>Priority</th>
+      <th>Incident Type Id</th>
+      <th>Incident Type Description</th>
+      <th>Event Number</th>
+      <th>Closed Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>OP</td>
+      <td>2013-01-01T00:00:00.000</td>
+      <td>D ST</td>
+      <td>2</td>
+      <td>33X</td>
+      <td>1</td>
+      <td>415GS</td>
+      <td>415 GUNSHOTS</td>
+      <td>LOP130101000002</td>
+      <td>2013-01-01T00:47:51.000</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>OP</td>
+      <td>2013-01-01T00:00:05.000</td>
+      <td>ARTHUR ST</td>
+      <td>2</td>
+      <td>30X</td>
+      <td>2</td>
+      <td>415GS</td>
+      <td>415 GUNSHOTS</td>
+      <td>LOP130101000004</td>
+      <td>2013-01-01T01:30:58.000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
-
-
-![png](output_28_1.png)
-
-
-### 每年的报警数量
 
 
 ```python
-fig, ax = plt.subplots(nrows=2, ncols=3)
-plt.subplots_adjust(left=0, right=2.5, top=3, bottom=1)
+crimes_2014_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2014.csv", keep_default_na=False)
+crimes_2014_miss.head(2)
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Agency</th>
+      <th>Create Time</th>
+      <th>Area Id</th>
+      <th>Beat</th>
+      <th>Priority</th>
+      <th>Incident Type Id</th>
+      <th>Incident Type Description</th>
+      <th>Event Number</th>
+      <th>Closed Time</th>
+      <th>Location 1</th>
+      <th>Zip Codes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>OP</td>
+      <td>2014-01-01T00:00:00.000</td>
+      <td>1</td>
+      <td>02X</td>
+      <td>2</td>
+      <td>415GS</td>
+      <td>415 GUNSHOTS</td>
+      <td>LOP140101000001</td>
+      <td>2014-01-01T03:22:08.000</td>
+      <td>{'human_address': '{"address": "LINDEN ST", "c...</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>OP</td>
+      <td>2014-01-01T00:00:00.000</td>
+      <td>2</td>
+      <td>26Y</td>
+      <td>2</td>
+      <td>415GS</td>
+      <td>415 GUNSHOTS</td>
+      <td>LOP140101000002</td>
+      <td>2014-01-01T02:56:31.000</td>
+      <td>{'human_address': '{"address": "AV&amp;INTERNATION...</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+crimes_2015_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2015.csv", keep_default_na=False)
+crimes_2015_miss.head(2)
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Agency</th>
+      <th>Create Time</th>
+      <th>Location</th>
+      <th>Area Id</th>
+      <th>Beat</th>
+      <th>Priority</th>
+      <th>Incident Type Id</th>
+      <th>Incident Type Description</th>
+      <th>Event Number</th>
+      <th>Closed Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>OP</td>
+      <td>2015-01-01T00:01:59.000</td>
+      <td>S ELMHURST AV</td>
+      <td>P3</td>
+      <td>31Y</td>
+      <td>2</td>
+      <td>415</td>
+      <td>DISTURBING THE PEACE</td>
+      <td>LOP150101000003</td>
+      <td>2015-01-01T06:23:08.000</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>OP</td>
+      <td>2015-01-01T00:02:02.000</td>
+      <td>AV&amp;D ST</td>
+      <td>P3</td>
+      <td>32X</td>
+      <td>2</td>
+      <td>415GS</td>
+      <td>415 GUNSHOTS</td>
+      <td>LOP150101000007</td>
+      <td>2015-01-01T01:44:40.000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+crimes_2016_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2016.csv", keep_default_na=False)
+crimes_2016_miss.head(2)
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Agency</th>
+      <th>Create Time</th>
+      <th>Location</th>
+      <th>Area Id</th>
+      <th>Beat</th>
+      <th>Priority</th>
+      <th>Incident Type Id</th>
+      <th>Incident Type Description</th>
+      <th>Event Number</th>
+      <th>Closed Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>OP</td>
+      <td>2016-01-01T00:00:57.000</td>
+      <td>ST&amp;MARKET ST</td>
+      <td>P1</td>
+      <td>05X</td>
+      <td>2</td>
+      <td>415GS</td>
+      <td>415 GUNSHOTS</td>
+      <td>LOP160101000003</td>
+      <td>2016-01-01T00:32:30.000</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>OP</td>
+      <td>2016-01-01T00:01:25.000</td>
+      <td>AV&amp;HAMILTON ST</td>
+      <td>P3</td>
+      <td>26Y</td>
+      <td>2</td>
+      <td>415GS</td>
+      <td>415 GUNSHOTS</td>
+      <td>LOP160101000005</td>
+      <td>2016-01-01T00:48:23.000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+def loaddata():
+    crimes_2011_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2011.csv", keep_default_na=False)
+
+    crimes_2012_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2012.csv", keep_default_na=False)
+
+    crimes_2013_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2013.csv", keep_default_na=False)
+
+    crimes_2014_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2014.csv", keep_default_na=False)
+
+    crimes_2015_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2015.csv", keep_default_na=False)
+
+    crimes_2016_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2016.csv", keep_default_na=False)
+
+    miss_list = [crimes_2011_miss,crimes_2012_miss,crimes_2013_miss,crimes_2014_miss,crimes_2015_miss,crimes_2016_miss]
+    
+    return miss_list
+def countbeat():
+    fig, ax = plt.subplots(nrows=2, ncols=3)
+    plt.subplots_adjust(left=0, right=2.5, top=3, bottom=1)
+    i = 0
+    for row in ax:
+        for col in row:
+            col.set_title(str(2011 + i))
+            sns.countplot(x="Beat", data=miss_list[i],ax=col, palette="Set1") 
+            i+=1
+```
+
+
+```python
+def count_ana(pd,col):
+    countana = 0
+    for i in pd[col]:
+        if i == '':
+            countana += 1
+    return countana    
+```
+
+
+```python
+miss_list = [crimes_2011_miss,crimes_2012_miss,crimes_2013_miss,crimes_2014_miss,crimes_2015_miss,crimes_2016_miss]
+for dataset in miss_list:
+    count = count_ana(dataset,"Priority")
+    print(count)
+# count_priority
+```
+
+    1
+    1
+    1
+    0
+    0
+    1
+
+
+Priority字段几乎无缺失值
+
+
+```python
+for dataset in miss_list:
+    count = count_ana(dataset,"Incident Type Id")
+    print(count)
+```
+
+    1
+    1
+    1
+    0
+    0
+    1
+
+
+Incident Type Id字段也无缺失
+
+
+```python
+for dataset in miss_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
+```
+
+    520
+    984
+    1178
+    1217
+    1325
+    581
+
+
+我们选择对“Beat”进行缺失值的填充
+### 直接将缺失的数值剔除
+在数据上部分的数据预处理过程中，已经将缺失的数据删除
+
+
+```python
 crimes_list = [crimes_2011, crimes_2012, crimes_2013, crimes_2014, crimes_2015, crimes_2016]
-i = 0
-for row in ax:
-    for col in row:
-        col.set_title(str(2011 + i))
-        sns.countplot(data=crimes_list[i], x="Priority", ax=col, palette="Set1")
-        i+=1
+
+for dataset in crimes_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
 ```
 
+    0
+    0
+    0
+    0
+    0
+    0
 
-![png](output_30_0.png)
 
-
-### 每年犯罪持续时间盒图
-
-### 每年报警的时间段分布
+### 用频数最大的值进行填充
 
 
 ```python
-fig, ax = plt.subplots(nrows=2, ncols=3)
-plt.subplots_adjust(left=0, right=2.5, top=3, bottom=1)
-i = 0
-for row in ax:
-    for col in row:
-        col.set_title(str(2011 + i))
-        sns.countplot(data=crimes_list[i], x="Priority", hue="time_of_the_day", palette="Set1", ax=col)
-        i+=1
+maxcount = []
+for pd in crimes_list:
+    count = pd["Beat"].value_counts()
+#     maxcount.append(count)
+    print(count.iloc[:1])
+# print(maxcount)
 ```
 
-
-![png](output_33_0.png)
-
-
-从上述的图中可以看出优先级为1的案件少，优先级为2的案件多，案件的高发时间段为12PM-6PM
-
-
-```python
-fig, ax = plt.subplots(nrows=2, ncols=3)
-plt.subplots_adjust(left=0, right=2.5, top=3, bottom=1)
-i = 0
-nlargest = [set(get_nlargest_incident_id(10, x)) for x in crimes_list]
-print("From 2011 to 2016 Top 10 Common Incident Types are: {}".format(str(set.intersection(*nlargest))))
-for row in ax:
-    for col in row:
-        col.set_title(str(2011 + i))
-        sns.countplot(data=crimes_list[i].loc[crimes_list[i]['Incident Type Id'].isin(nlargest[i])], x="Incident Type Id", hue="Priority", palette="Set1", ax=col)
-        i += 1
-```
-
-    From 2011 to 2016 Top 10 Common Incident Types are: {'10851', '911H', 'SECCK', '242', '933R', '5150', '415', '912', '415C'}
+    04X    7410
+    Name: Beat, dtype: int64
+    04X    8088
+    Name: Beat, dtype: int64
+    04X    7697
+    Name: Beat, dtype: int64
+    04X    7866
+    Name: Beat, dtype: int64
+    04X    8048
+    Name: Beat, dtype: int64
+    04X    4515
+    Name: Beat, dtype: int64
 
 
-
-![png](output_35_1.png)
+我们发现每年的数据中出现频率最高的是04X，所以用04X进行填充
 
 
 
 ```python
-fig, ax = plt.subplots(nrows=2, ncols=3)
-plt.subplots_adjust(left=0, right=2.5, top=3, bottom=1)
-i = 0
-area_nlargest = [set(get_nlargest_area_id(10, x)) for x in crimes_list]
-print("From 2011 to 2016 Top 10 Common Area Id are: {}".format(str(set.intersection(*area_nlargest))))
-for row in ax:
-    for col in row:
-        col.set_title(str(2011 + i))
-        sns.countplot(data=crimes_list[i].loc[crimes_list[i]['Area Id'].isin(area_nlargest[i])], x="Area Id", hue="Priority", palette="Set1", ax=col)
-        i += 1
+miss_list = loaddata()
+print(len(miss_list))
+for dataset in miss_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
 ```
 
-    From 2011 to 2016 Top 10 Common Area Id are: set()
-
-
-
-![png](output_36_1.png)
+    6
+    520
+    984
+    1178
+    1217
+    1325
+    581
 
 
 
 ```python
-fig, ax = plt.subplots(nrows=6, ncols=3)
-plt.subplots_adjust(left=0, right=3, top=12, bottom=0)
-i_list = 0
-for i, row in enumerate(ax):
-    for j, col in enumerate(row):
-        year_string = str(2011 + i)
-        
-        if j == 1:
-            month_or_day = 'Day of The Month'
-            title = year_string+ '\n' + month_or_day +'\n Crime Count'
-            col.set_title(title)
-            col.set_xticklabels(col.get_xticklabels(), rotation=90)
-            sns.countplot(data=crimes_list[i_list], x="day_of_the_month" ,palette="Set1", ax=col)
-        elif j == 2:
-            month_or_day = 'Month of The Year'
-            title = year_string + '\n' + month_or_day +'\n Crime Count'
-            col.set_title(title)
-            sns.countplot(data=crimes_list[i_list], x="month_of_the_year",palette="Set1", ax=col)
-        else:
-            month_or_day = 'Day of The Week'
-            title = year_string+ '\n' + month_or_day +'\n Crime Count'
-            col.set_title(title)
-            sns.countplot(data=crimes_list[i_list], x="day_of_the_week" ,palette="Set1", ax=col)
-            
-    i_list += 1
-
+countbeat()
 ```
 
 
-![png](output_37_0.png)
+![png](output_52_0.png)
 
+
+
+```python
+for dataset in miss_list:
+    for i in range(len(dataset["Beat"])):
+        if dataset["Beat"][i] == '':
+            dataset["Beat"][i] = "04X"
+```
+
+    /Users/zhangbo/Library/Python/3.7/lib/python/site-packages/ipykernel_launcher.py:4: SettingWithCopyWarning: 
+    A value is trying to be set on a copy of a slice from a DataFrame
+    
+    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+      after removing the cwd from sys.path.
+
+
+
+```python
+for dataset in miss_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
+```
+
+    0
+    0
+    0
+    0
+    0
+    0
+
+
+
+```python
+countbeat()
+```
+
+
+![png](output_55_0.png)
+
+
+### 使用与空缺值相邻的值进行填充
+
+
+```python
+miss_list = loaddata()
+for dataset in miss_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
+```
+
+    520
+    984
+    1178
+    1217
+    1325
+    581
+
+
+
+```python
+for dataset in miss_list:
+    for i in range(len(dataset["Beat"])):
+        if dataset["Beat"][i] == '':
+            for j in range(5):
+                if dataset["Beat"][i-j] != '':
+                    dataset["Beat"][i] = dataset["Beat"][i-j]
+```
+
+    /Users/zhangbo/Library/Python/3.7/lib/python/site-packages/ipykernel_launcher.py:6: SettingWithCopyWarning: 
+    A value is trying to be set on a copy of a slice from a DataFrame
+    
+    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+      
+
+
+
+```python
+for dataset in miss_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
+```
+
+    0
+    0
+    0
+    0
+    0
+    0
+
+
+
+```python
+countbeat()
+```
+
+
+![png](output_60_0.png)
+
+
+### 通过数据对象之间的相似性来填补缺失值
+
+
+```python
+miss_list = loaddata()
+for dataset in miss_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
+```
+
+    520
+    984
+    1178
+    1217
+    1325
+    581
+
+
+
+```python
+for dataset in miss_list: 
+    beatdataset = dataset["Beat"]
+    typedataset = dataset["Incident Type Id"]
+    dir_type_beat = {}
+    for i in range(len(beatdataset)):
+        if beatdataset[i] != '':
+            dir_type_beat[typedataset[i]] =  beatdataset[i]
+    for i in range(len(beatdataset)):
+        if beatdataset[i] == '':
+            if typedataset[i] not in dir_type_beat.keys():
+                beatdataset[i] = "04X"
+            else:
+                beatdataset[i] = dir_type_beat[typedataset[i]]
+```
+
+    /Users/zhangbo/Library/Python/3.7/lib/python/site-packages/ipykernel_launcher.py:13: SettingWithCopyWarning: 
+    A value is trying to be set on a copy of a slice from a DataFrame
+    
+    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+      del sys.path[0]
+    /Users/zhangbo/Library/Python/3.7/lib/python/site-packages/ipykernel_launcher.py:11: SettingWithCopyWarning: 
+    A value is trying to be set on a copy of a slice from a DataFrame
+    
+    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+      # This is added back by InteractiveShellApp.init_path()
+
+
+
+```python
+for dataset in miss_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
+```
+
+    0
+    0
+    0
+    0
+    0
+    0
+
+
+
+```python
+countbeat()
+```
+
+
+![png](output_65_0.png)
+
+
+由于缺失的值只占很少的部分所以对于频数分布来说并没有什么很大的变化

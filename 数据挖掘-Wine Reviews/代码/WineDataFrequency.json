@@ -1,0 +1,9642 @@
+{
+ "country": [
+  [
+   "US",
+   54504
+  ],
+  [
+   "France",
+   22093
+  ],
+  [
+   "Italy",
+   19540
+  ],
+  [
+   "Spain",
+   6645
+  ],
+  [
+   "Portugal",
+   5691
+  ],
+  [
+   "Chile",
+   4472
+  ],
+  [
+   "Argentina",
+   3800
+  ],
+  [
+   "Austria",
+   3345
+  ],
+  [
+   "Australia",
+   2329
+  ],
+  [
+   "Germany",
+   2165
+  ],
+  [
+   "New Zealand",
+   1419
+  ],
+  [
+   "South Africa",
+   1401
+  ],
+  [
+   "Israel",
+   505
+  ],
+  [
+   "Greece",
+   466
+  ],
+  [
+   "Canada",
+   257
+  ],
+  [
+   "Hungary",
+   146
+  ],
+  [
+   "Bulgaria",
+   141
+  ],
+  [
+   "Romania",
+   120
+  ],
+  [
+   "Uruguay",
+   109
+  ],
+  [
+   "Turkey",
+   90
+  ],
+  [
+   "Slovenia",
+   87
+  ],
+  [
+   "Georgia",
+   86
+  ],
+  [
+   "England",
+   74
+  ],
+  [
+   "Croatia",
+   73
+  ],
+  [
+   "Mexico",
+   70
+  ],
+  [
+   "",
+   63
+  ],
+  [
+   "Moldova",
+   59
+  ],
+  [
+   "Brazil",
+   52
+  ],
+  [
+   "Lebanon",
+   35
+  ],
+  [
+   "Morocco",
+   28
+  ],
+  [
+   "Peru",
+   16
+  ],
+  [
+   "Ukraine",
+   14
+  ],
+  [
+   "Czech Republic",
+   12
+  ],
+  [
+   "Serbia",
+   12
+  ],
+  [
+   "Macedonia",
+   12
+  ],
+  [
+   "Cyprus",
+   11
+  ],
+  [
+   "India",
+   9
+  ],
+  [
+   "Switzerland",
+   7
+  ],
+  [
+   "Luxembourg",
+   6
+  ],
+  [
+   "Armenia",
+   2
+  ],
+  [
+   "Bosnia and Herzegovina",
+   2
+  ],
+  [
+   "Slovakia",
+   1
+  ],
+  [
+   "China",
+   1
+  ],
+  [
+   "Egypt",
+   1
+  ]
+ ],
+ "province": [
+  [
+   "California",
+   36247
+  ],
+  [
+   "Washington",
+   8639
+  ],
+  [
+   "Bordeaux",
+   5941
+  ],
+  [
+   "Tuscany",
+   5897
+  ],
+  [
+   "Oregon",
+   5373
+  ],
+  [
+   "Burgundy",
+   3980
+  ],
+  [
+   "Northern Spain",
+   3851
+  ],
+  [
+   "Piedmont",
+   3729
+  ],
+  [
+   "Mendoza Province",
+   3264
+  ],
+  [
+   "Veneto",
+   2716
+  ],
+  [
+   "New York",
+   2688
+  ],
+  [
+   "Alsace",
+   2440
+  ],
+  [
+   "Northeastern Italy",
+   2138
+  ],
+  [
+   "Loire Valley",
+   1856
+  ],
+  [
+   "Sicily & Sardinia",
+   1797
+  ],
+  [
+   "Champagne",
+   1613
+  ],
+  [
+   "Southwest France",
+   1503
+  ],
+  [
+   "Southern Italy",
+   1349
+  ],
+  [
+   "South Australia",
+   1349
+  ],
+  [
+   "Provence",
+   1346
+  ],
+  [
+   "Douro",
+   1281
+  ],
+  [
+   "Central Italy",
+   1233
+  ],
+  [
+   "Catalonia",
+   1164
+  ],
+  [
+   "Rh\u00f4ne Valley",
+   1081
+  ],
+  [
+   "Beaujolais",
+   1044
+  ],
+  [
+   "Mosel",
+   1039
+  ],
+  [
+   "Alentejano",
+   937
+  ],
+  [
+   "Colchagua Valley",
+   830
+  ],
+  [
+   "Marlborough",
+   798
+  ],
+  [
+   "Virginia",
+   777
+  ],
+  [
+   "Tejo",
+   683
+  ],
+  [
+   "France Other",
+   676
+  ],
+  [
+   "Burgenland",
+   672
+  ],
+  [
+   "Maipo Valley",
+   659
+  ],
+  [
+   "Languedoc-Roussillon",
+   613
+  ],
+  [
+   "Casablanca Valley",
+   601
+  ],
+  [
+   "Port",
+   601
+  ],
+  [
+   "Nieder\u00f6sterreich",
+   600
+  ],
+  [
+   "Other",
+   536
+  ],
+  [
+   "Lombardy",
+   533
+  ],
+  [
+   "Lisboa",
+   506
+  ],
+  [
+   "Central Spain",
+   485
+  ],
+  [
+   "Maule Valley",
+   471
+  ],
+  [
+   "Levante",
+   454
+  ],
+  [
+   "Stellenbosch",
+   443
+  ],
+  [
+   "Galicia",
+   410
+  ],
+  [
+   "Vinho Verde",
+   410
+  ],
+  [
+   "Kamptal",
+   409
+  ],
+  [
+   "Central Valley",
+   356
+  ],
+  [
+   "Wachau",
+   353
+  ],
+  [
+   "D\u00e3o",
+   343
+  ],
+  [
+   "Kremstal",
+   340
+  ],
+  [
+   "Victoria",
+   322
+  ],
+  [
+   "Rheingau",
+   315
+  ],
+  [
+   "Western Australia",
+   286
+  ],
+  [
+   "Rheinhessen",
+   281
+  ],
+  [
+   "Western Cape",
+   281
+  ],
+  [
+   "Galilee",
+   271
+  ],
+  [
+   "Australia Other",
+   245
+  ],
+  [
+   "Curic\u00f3 Valley",
+   239
+  ],
+  [
+   "Leyda Valley",
+   230
+  ],
+  [
+   "Cachapoal Valley",
+   205
+  ],
+  [
+   "Idaho",
+   192
+  ],
+  [
+   "Andalucia",
+   189
+  ],
+  [
+   "Pfalz",
+   187
+  ],
+  [
+   "Alentejo",
+   182
+  ],
+  [
+   "Bairrada",
+   167
+  ],
+  [
+   "Rapel Valley",
+   162
+  ],
+  [
+   "Central Otago",
+   162
+  ],
+  [
+   "British Columbia",
+   160
+  ],
+  [
+   "Pen\u00ednsula de Set\u00fabal",
+   152
+  ],
+  [
+   "Hawke's Bay",
+   136
+  ],
+  [
+   "Italy Other",
+   135
+  ],
+  [
+   "Coastal Region",
+   132
+  ],
+  [
+   "Thermenregion",
+   128
+  ],
+  [
+   "Aconcagua Valley",
+   116
+  ],
+  [
+   "Judean Hills",
+   116
+  ],
+  [
+   "Michigan",
+   114
+  ],
+  [
+   "Thracian Valley",
+   110
+  ],
+  [
+   "S\u00fcdsteiermark",
+   109
+  ],
+  [
+   "Limar\u00ed Valley",
+   104
+  ],
+  [
+   "Mosel-Saar-Ruwer",
+   104
+  ],
+  [
+   "Carnuntum",
+   103
+  ],
+  [
+   "Weinviertel",
+   100
+  ],
+  [
+   "Ontario",
+   96
+  ],
+  [
+   "Martinborough",
+   96
+  ],
+  [
+   "America",
+   95
+  ],
+  [
+   "Texas",
+   94
+  ],
+  [
+   "Robertson",
+   88
+  ],
+  [
+   "New South Wales",
+   85
+  ],
+  [
+   "Nahe",
+   84
+  ],
+  [
+   "Paarl",
+   75
+  ],
+  [
+   "England",
+   74
+  ],
+  [
+   "Swartland",
+   73
+  ],
+  [
+   "Kakheti",
+   73
+  ],
+  [
+   "Vienna",
+   72
+  ],
+  [
+   "San Antonio",
+   70
+  ],
+  [
+   "Colorado",
+   68
+  ],
+  [
+   "Valle de Guadalupe",
+   66
+  ],
+  [
+   "\u00d6sterreichischer Sekt",
+   66
+  ],
+  [
+   "Wagram",
+   65
+  ],
+  [
+   "Spain Other",
+   64
+  ],
+  [
+   "",
+   63
+  ],
+  [
+   "Baden",
+   62
+  ],
+  [
+   "Peloponnese",
+   57
+  ],
+  [
+   "Wagram-Donauland",
+   56
+  ],
+  [
+   "Moldova",
+   54
+  ],
+  [
+   "Elqui Valley",
+   53
+  ],
+  [
+   "Chile",
+   51
+  ],
+  [
+   "Nemea",
+   51
+  ],
+  [
+   "Minho",
+   49
+  ],
+  [
+   "Santorini",
+   48
+  ],
+  [
+   "Elgin",
+   48
+  ],
+  [
+   "Tokaj",
+   47
+  ],
+  [
+   "Tokaji",
+   46
+  ],
+  [
+   "New Mexico",
+   45
+  ],
+  [
+   "Estremadura",
+   44
+  ],
+  [
+   "Franken",
+   43
+  ],
+  [
+   "Traisental",
+   43
+  ],
+  [
+   "B\u00edo B\u00edo Valley",
+   43
+  ],
+  [
+   "Canelones",
+   43
+  ],
+  [
+   "Leithaberg",
+   42
+  ],
+  [
+   "Tasmania",
+   42
+  ],
+  [
+   "Simonsberg-Stellenbosch",
+   41
+  ],
+  [
+   "Nelson",
+   41
+  ],
+  [
+   "Arizona",
+   41
+  ],
+  [
+   "Drama",
+   40
+  ],
+  [
+   "S\u00fcdoststeiermark",
+   37
+  ],
+  [
+   "Peumo",
+   36
+  ],
+  [
+   "Beira Interior",
+   35
+  ],
+  [
+   "Missouri",
+   33
+  ],
+  [
+   "Upper Galilee",
+   32
+  ],
+  [
+   "Dealu Mare",
+   31
+  ],
+  [
+   "Lontu\u00e9 Valley",
+   29
+  ],
+  [
+   "Kumeu",
+   29
+  ],
+  [
+   "Wiener Gemischter Satz",
+   28
+  ],
+  [
+   "Spanish Islands",
+   28
+  ],
+  [
+   "Crete",
+   27
+  ],
+  [
+   "Awatere Valley",
+   27
+  ],
+  [
+   "Aconcagua Costa",
+   27
+  ],
+  [
+   "Portuguese Table Wine",
+   26
+  ],
+  [
+   "Mantinia",
+   26
+  ],
+  [
+   "Goriska Brda",
+   26
+  ],
+  [
+   "Austria",
+   26
+  ],
+  [
+   "Naoussa",
+   25
+  ],
+  [
+   "Duriense",
+   25
+  ],
+  [
+   "Waipara",
+   25
+  ],
+  [
+   "Vill\u00e1ny",
+   24
+  ],
+  [
+   "Marchigue",
+   24
+  ],
+  [
+   "Constantia",
+   24
+  ],
+  [
+   "Uruguay",
+   24
+  ],
+  [
+   "Bucelas",
+   23
+  ],
+  [
+   "Istria",
+   23
+  ],
+  [
+   "Setubal",
+   23
+  ],
+  [
+   "Franschhoek",
+   23
+  ],
+  [
+   "Wellington",
+   23
+  ],
+  [
+   "Mittelburgenland",
+   23
+  ],
+  [
+   "North Carolina",
+   23
+  ],
+  [
+   "W\u00fcrttemberg",
+   22
+  ],
+  [
+   "Bekaa Valley",
+   22
+  ],
+  [
+   "Vinho Espumante de Qualidade",
+   22
+  ],
+  [
+   "Viile Timisului",
+   22
+  ],
+  [
+   "Aegean",
+   22
+  ],
+  [
+   "Lolol Valley",
+   22
+  ],
+  [
+   "\u0160tajerska",
+   22
+  ],
+  [
+   "Romania",
+   21
+  ],
+  [
+   "Palmela",
+   21
+  ],
+  [
+   "Loncomilla Valley",
+   20
+  ],
+  [
+   "Steiermark",
+   20
+  ],
+  [
+   "Shomron",
+   20
+  ],
+  [
+   "Walker Bay",
+   19
+  ],
+  [
+   "Zenata",
+   19
+  ],
+  [
+   "Danube River Plains",
+   19
+  ],
+  [
+   "Pennsylvania",
+   18
+  ],
+  [
+   "Beiras",
+   18
+  ],
+  [
+   "Weinland \u00d6sterreich",
+   18
+  ],
+  [
+   "Serra Ga\u00facha",
+   18
+  ],
+  [
+   "Ankara",
+   18
+  ],
+  [
+   "Epanomi",
+   17
+  ],
+  [
+   "Pangeon",
+   17
+  ],
+  [
+   "Turkey",
+   17
+  ],
+  [
+   "Thrace",
+   16
+  ],
+  [
+   "Waipara Valley",
+   16
+  ],
+  [
+   "Ica",
+   16
+  ],
+  [
+   "Israel",
+   16
+  ],
+  [
+   "Eisenberg",
+   16
+  ],
+  [
+   "Tulbagh",
+   16
+  ],
+  [
+   "Ribatejano",
+   15
+  ],
+  [
+   "Puente Alto",
+   15
+  ],
+  [
+   "Hemel en Aarde",
+   15
+  ],
+  [
+   "Beira Atlantico",
+   14
+  ],
+  [
+   "Tr\u00e1s-os-Montes",
+   14
+  ],
+  [
+   "Atalanti Valley",
+   14
+  ],
+  [
+   "Ribatejo",
+   14
+  ],
+  [
+   "Ukraine",
+   14
+  ],
+  [
+   "Recas",
+   13
+  ],
+  [
+   "Colchagua Costa",
+   13
+  ],
+  [
+   "Northwestern Italy",
+   13
+  ],
+  [
+   "Peljesac",
+   13
+  ],
+  [
+   "Lebanon",
+   13
+  ],
+  [
+   "Itata Valley",
+   13
+  ],
+  [
+   "Madeira",
+   13
+  ],
+  [
+   "Galil",
+   13
+  ],
+  [
+   "Neusiedlersee",
+   13
+  ],
+  [
+   "Georgia",
+   13
+  ],
+  [
+   "Greece",
+   13
+  ],
+  [
+   "Florina",
+   13
+  ],
+  [
+   "Eger",
+   13
+  ],
+  [
+   "Moravia",
+   12
+  ],
+  [
+   "Canterbury",
+   12
+  ],
+  [
+   "Durbanville",
+   12
+  ],
+  [
+   "Ohio",
+   12
+  ],
+  [
+   "South Island",
+   12
+  ],
+  [
+   "Vipavska Dolina",
+   12
+  ],
+  [
+   "Samson",
+   12
+  ],
+  [
+   "Wairarapa",
+   12
+  ],
+  [
+   "Juanico",
+   12
+  ],
+  [
+   "Germany",
+   12
+  ],
+  [
+   "New Zealand",
+   12
+  ],
+  [
+   "Apalta",
+   12
+  ],
+  [
+   "Terras do Sado",
+   12
+  ],
+  [
+   "Tikves",
+   12
+  ],
+  [
+   "North Dalmatia",
+   12
+  ],
+  [
+   "Wairau Valley",
+   11
+  ],
+  [
+   "Montevideo",
+   11
+  ],
+  [
+   "Progreso",
+   11
+  ],
+  [
+   "Gisborne",
+   10
+  ],
+  [
+   "Macedonia",
+   10
+  ],
+  [
+   "Waiheke Island",
+   10
+  ],
+  [
+   "Cappadocia",
+   10
+  ],
+  [
+   "Ahr",
+   9
+  ],
+  [
+   "Primorska",
+   9
+  ],
+  [
+   "Nashik",
+   9
+  ],
+  [
+   "Overberg",
+   9
+  ],
+  [
+   "Cauquenes Valley",
+   9
+  ],
+  [
+   "Vale dos Vinhedos",
+   9
+  ],
+  [
+   "Dealurile Munteniei",
+   9
+  ],
+  [
+   "Algarve",
+   9
+  ],
+  [
+   "Bulgaria",
+   9
+  ],
+  [
+   "Darling",
+   8
+  ],
+  [
+   "New Jersey",
+   8
+  ],
+  [
+   "Obidos",
+   8
+  ],
+  [
+   "Cederberg",
+   8
+  ],
+  [
+   "Bot River",
+   8
+  ],
+  [
+   "Buin",
+   8
+  ],
+  [
+   "Molina",
+   8
+  ],
+  [
+   "\u017dupa",
+   8
+  ],
+  [
+   "Cephalonia",
+   8
+  ],
+  [
+   "Massachusetts",
+   7
+  ],
+  [
+   "Moscatel de Set\u00fabal",
+   7
+  ],
+  [
+   "Hungary",
+   7
+  ],
+  [
+   "Alenquer",
+   7
+  ],
+  [
+   "Murfatlar",
+   7
+  ],
+  [
+   "Moscatel do Douro",
+   7
+  ],
+  [
+   "Washington-Oregon",
+   7
+  ],
+  [
+   "Brazil",
+   7
+  ],
+  [
+   "East Coast",
+   7
+  ],
+  [
+   "Brda",
+   7
+  ],
+  [
+   "Corinth",
+   6
+  ],
+  [
+   "Slovenia",
+   6
+  ],
+  [
+   "Moselle Luxembourgeoise",
+   6
+  ],
+  [
+   "Pinto Bandeira",
+   6
+  ],
+  [
+   "Santa Cruz",
+   6
+  ],
+  [
+   "Kor\u010dula",
+   6
+  ],
+  [
+   "Illinois",
+   6
+  ],
+  [
+   "Samos",
+   6
+  ],
+  [
+   "Pirque",
+   6
+  ],
+  [
+   "Attica",
+   6
+  ],
+  [
+   "Morocco",
+   6
+  ],
+  [
+   "Halkidiki",
+   5
+  ],
+  [
+   "Rio Claro",
+   5
+  ],
+  [
+   "Negev Hills",
+   5
+  ],
+  [
+   "Vinho Espumante",
+   5
+  ],
+  [
+   "Chalkidiki",
+   5
+  ],
+  [
+   "South Africa",
+   5
+  ],
+  [
+   "Atlantida",
+   5
+  ],
+  [
+   "Tarnave",
+   5
+  ],
+  [
+   "Mittelrhein",
+   5
+  ],
+  [
+   "Podunavlje",
+   5
+  ],
+  [
+   "Vale Trentino",
+   5
+  ],
+  [
+   "Elaz\u0131\u011f",
+   5
+  ],
+  [
+   "Kutjevo",
+   5
+  ],
+  [
+   "Achaia",
+   5
+  ],
+  [
+   "Amyndeon",
+   5
+  ],
+  [
+   "Terras do D\u00e3o",
+   4
+  ],
+  [
+   "Nevada",
+   4
+  ],
+  [
+   "Ella Valley",
+   4
+  ],
+  [
+   "Pageon",
+   4
+  ],
+  [
+   "Simonsberg-Paarl",
+   4
+  ],
+  [
+   "Campanha",
+   4
+  ],
+  [
+   "Groenekloof",
+   4
+  ],
+  [
+   "Iowa",
+   4
+  ],
+  [
+   "San Clemente",
+   4
+  ],
+  [
+   "Haut-Jude\u00e9",
+   4
+  ],
+  [
+   "Philadelphia",
+   4
+  ],
+  [
+   "Mavrodaphne of Patras",
+   4
+  ],
+  [
+   "Jonkershoek Valley",
+   4
+  ],
+  [
+   "Sopron",
+   4
+  ],
+  [
+   "\u00d6sterreichischer Perlwein",
+   4
+  ],
+  [
+   "Portugal",
+   4
+  ],
+  [
+   "Jerusalem Hills",
+   4
+  ],
+  [
+   "Jidvei",
+   3
+  ],
+  [
+   "Rapsani",
+   3
+  ],
+  [
+   "Cyprus",
+   3
+  ],
+  [
+   "Black Sea Coastal",
+   3
+  ],
+  [
+   "Sebes",
+   3
+  ],
+  [
+   "Kras",
+   3
+  ],
+  [
+   "San Jose",
+   3
+  ],
+  [
+   "Malleco",
+   3
+  ],
+  [
+   "Guerrouane",
+   3
+  ],
+  [
+   "Choapa Valley",
+   3
+  ],
+  [
+   "Patras",
+   3
+  ],
+  [
+   "Korinthia",
+   3
+  ],
+  [
+   "Maipo Valley-Colchagua Valley",
+   3
+  ],
+  [
+   "Breedekloof",
+   3
+  ],
+  [
+   "Vermont",
+   3
+  ],
+  [
+   "Switzerland",
+   3
+  ],
+  [
+   "Golan Heights",
+   3
+  ],
+  [
+   "Fru\u0161ka Gora",
+   3
+  ],
+  [
+   "M\u00e1tra",
+   3
+  ],
+  [
+   "Negev",
+   3
+  ],
+  [
+   "Eilandia",
+   3
+  ],
+  [
+   "Pafos",
+   3
+  ],
+  [
+   "Ismarikos",
+   3
+  ],
+  [
+   "Connecticut",
+   3
+  ],
+  [
+   "Sithonia",
+   3
+  ],
+  [
+   "Curic\u00f3 and Leyda Valleys",
+   3
+  ],
+  [
+   "Agioritikos",
+   3
+  ],
+  [
+   "Elim",
+   3
+  ],
+  [
+   "Hvar",
+   3
+  ],
+  [
+   "Cahul",
+   3
+  ],
+  [
+   "Polkadraai Hills",
+   3
+  ],
+  [
+   "Goumenissa",
+   3
+  ],
+  [
+   "Vinho Licoroso",
+   3
+  ],
+  [
+   "Casablanca & Leyda Valleys",
+   3
+  ],
+  [
+   "Cape Peninsula",
+   3
+  ],
+  [
+   "Dan",
+   2
+  ],
+  [
+   "Panciu",
+   2
+  ],
+  [
+   "San Vicente",
+   2
+  ],
+  [
+   "Armenia",
+   2
+  ],
+  [
+   "Santa Catarina",
+   2
+  ],
+  [
+   "Olifants River",
+   2
+  ],
+  [
+   "Valais",
+   2
+  ],
+  [
+   "Sagrada Familia",
+   2
+  ],
+  [
+   "Mostar",
+   2
+  ],
+  [
+   "Leyda Valley-Maipo Valley",
+   2
+  ],
+  [
+   "Waitaki Valley",
+   2
+  ],
+  [
+   "Curic\u00f3 and Maipo Valleys",
+   2
+  ],
+  [
+   "Szeksz\u00e1rd",
+   2
+  ],
+  [
+   "Malgas",
+   2
+  ],
+  [
+   "Retsina",
+   2
+  ],
+  [
+   "Amindeo",
+   2
+  ],
+  [
+   "Cape South Coast",
+   2
+  ],
+  [
+   "Northern Cape",
+   2
+  ],
+  [
+   "Cyclades",
+   2
+  ],
+  [
+   "V\u00e2nju Mare",
+   2
+  ],
+  [
+   "Requinoa",
+   2
+  ],
+  [
+   "Lakonia",
+   2
+  ],
+  [
+   "San Antonio de las Minas Valley",
+   2
+  ],
+  [
+   "Commandaria",
+   2
+  ],
+  [
+   "Mount Athos",
+   2
+  ],
+  [
+   "Colares",
+   2
+  ],
+  [
+   "Helderberg",
+   2
+  ],
+  [
+   "S\u00fcdburgenland",
+   2
+  ],
+  [
+   "Codru Region",
+   2
+  ],
+  [
+   "Letrinon",
+   2
+  ],
+  [
+   "Thessalikos",
+   2
+  ],
+  [
+   "Limnos",
+   2
+  ],
+  [
+   "Devon Valley",
+   2
+  ],
+  [
+   "Vin de Pays de Velvendo",
+   2
+  ],
+  [
+   "Landwein Rhein",
+   2
+  ],
+  [
+   "T\u00e1vora-Varosa",
+   2
+  ],
+  [
+   "Pocerina",
+   1
+  ],
+  [
+   "Table wine",
+   1
+  ],
+  [
+   "Croatia",
+   1
+  ],
+  [
+   "Lutzville Valley",
+   1
+  ],
+  [
+   "Ceres Plateau",
+   1
+  ],
+  [
+   "Muzla",
+   1
+  ],
+  [
+   "Pitsilia Mountains",
+   1
+  ],
+  [
+   "Elaz\u0131\u011f-Diyarbakir",
+   1
+  ],
+  [
+   "Serra do Sudeste",
+   1
+  ],
+  [
+   "Dalmatian Coast",
+   1
+  ],
+  [
+   "Thraki",
+   1
+  ],
+  [
+   "Middle and South Dalmatia",
+   1
+  ],
+  [
+   "Kentucky",
+   1
+  ],
+  [
+   "Monemvasia",
+   1
+  ],
+  [
+   "Casablanca-Curic\u00f3 Valley",
+   1
+  ],
+  [
+   "Piekenierskloof",
+   1
+  ],
+  [
+   "Beotia",
+   1
+  ],
+  [
+   "Coelemu",
+   1
+  ],
+  [
+   "Vinho da Mesa",
+   1
+  ],
+  [
+   "Lemesos",
+   1
+  ],
+  [
+   "Breede River Valley",
+   1
+  ],
+  [
+   "Ticino",
+   1
+  ],
+  [
+   "Vlootenburg",
+   1
+  ],
+  [
+   "Dinga\u010d",
+   1
+  ],
+  [
+   "Rhode Island",
+   1
+  ],
+  [
+   "Hrvatsko Primorje",
+   1
+  ],
+  [
+   "Central Greece",
+   1
+  ],
+  [
+   "Dolenjska",
+   1
+  ],
+  [
+   "Mavrodaphne de Cephalonie",
+   1
+  ],
+  [
+   "Messinia",
+   1
+  ],
+  [
+   "Markopoulo",
+   1
+  ],
+  [
+   "Paardeberg",
+   1
+  ],
+  [
+   "Krania Olympus",
+   1
+  ],
+  [
+   "Corinthia",
+   1
+  ],
+  [
+   "Slovenska Istra",
+   1
+  ],
+  [
+   "Gladstone",
+   1
+  ],
+  [
+   "Dealurile Hu\u0219ilor",
+   1
+  ],
+  [
+   "Urla-Thrace",
+   1
+  ],
+  [
+   "Sterea Ellada",
+   1
+  ],
+  [
+   "Muscat of Patras",
+   1
+  ],
+  [
+   "Imathia",
+   1
+  ],
+  [
+   "Alenteo",
+   1
+  ],
+  [
+   "Canada Other",
+   1
+  ],
+  [
+   "Muscat of Kefallonian",
+   1
+  ],
+  [
+   "Hawaii",
+   1
+  ],
+  [
+   "China",
+   1
+  ],
+  [
+   "Egypt",
+   1
+  ],
+  [
+   "Viile Timis",
+   1
+  ],
+  [
+   "Krk",
+   1
+  ],
+  [
+   "Arcadia",
+   1
+  ],
+  [
+   "Cape Agulhas",
+   1
+  ],
+  [
+   "Kathikas",
+   1
+  ],
+  [
+   "Lesbos",
+   1
+  ],
+  [
+   "Neuch\u00e2tel",
+   1
+  ]
+ ],
+ "region_1": [
+  [
+   "",
+   21247
+  ],
+  [
+   "Napa Valley",
+   4480
+  ],
+  [
+   "Columbia Valley (WA)",
+   4124
+  ],
+  [
+   "Russian River Valley",
+   3091
+  ],
+  [
+   "California",
+   2629
+  ],
+  [
+   "Paso Robles",
+   2350
+  ],
+  [
+   "Willamette Valley",
+   2301
+  ],
+  [
+   "Mendoza",
+   2301
+  ],
+  [
+   "Alsace",
+   2163
+  ],
+  [
+   "Champagne",
+   1613
+  ],
+  [
+   "Barolo",
+   1599
+  ],
+  [
+   "Finger Lakes",
+   1565
+  ],
+  [
+   "Sonoma Coast",
+   1474
+  ],
+  [
+   "Brunello di Montalcino",
+   1470
+  ],
+  [
+   "Rioja",
+   1469
+  ],
+  [
+   "Sonoma County",
+   1246
+  ],
+  [
+   "Toscana",
+   1197
+  ],
+  [
+   "Walla Walla Valley (WA)",
+   1066
+  ],
+  [
+   "Chianti Classico",
+   1062
+  ],
+  [
+   "Santa Barbara County",
+   1000
+  ],
+  [
+   "Carneros",
+   999
+  ],
+  [
+   "Yakima Valley",
+   997
+  ],
+  [
+   "Sta. Rita Hills",
+   975
+  ],
+  [
+   "Dry Creek Valley",
+   939
+  ],
+  [
+   "Sicilia",
+   925
+  ],
+  [
+   "C\u00f4tes de Provence",
+   859
+  ],
+  [
+   "Santa Ynez Valley",
+   812
+  ],
+  [
+   "Santa Lucia Highlands",
+   806
+  ],
+  [
+   "Lodi",
+   803
+  ],
+  [
+   "Barbaresco",
+   794
+  ],
+  [
+   "Alexander Valley",
+   784
+  ],
+  [
+   "Central Coast",
+   749
+  ],
+  [
+   "Ribera del Duero",
+   724
+  ],
+  [
+   "Red Mountain",
+   723
+  ],
+  [
+   "Santa Maria Valley",
+   704
+  ],
+  [
+   "Alto Adige",
+   694
+  ],
+  [
+   "Sonoma Valley",
+   661
+  ],
+  [
+   "Anderson Valley",
+   646
+  ],
+  [
+   "North Fork of Long Island",
+   599
+  ],
+  [
+   "Saint-\u00c9milion",
+   561
+  ],
+  [
+   "Chablis",
+   559
+  ],
+  [
+   "Horse Heaven Hills",
+   559
+  ],
+  [
+   "Virginia",
+   556
+  ],
+  [
+   "Dundee Hills",
+   554
+  ],
+  [
+   "Sancerre",
+   554
+  ],
+  [
+   "Santa Cruz Mountains",
+   548
+  ],
+  [
+   "Bordeaux",
+   518
+  ],
+  [
+   "Cava",
+   497
+  ],
+  [
+   "Cahors",
+   493
+  ],
+  [
+   "Bordeaux Blanc",
+   491
+  ],
+  [
+   "Oregon",
+   460
+  ],
+  [
+   "Bordeaux Sup\u00e9rieur",
+   454
+  ],
+  [
+   "Livermore Valley",
+   449
+  ],
+  [
+   "Washington",
+   440
+  ],
+  [
+   "Amarone della Valpolicella Classico",
+   420
+  ],
+  [
+   "Rutherford",
+   411
+  ],
+  [
+   "Edna Valley",
+   410
+  ],
+  [
+   "Sierra Foothills",
+   399
+  ],
+  [
+   "Amador County",
+   397
+  ],
+  [
+   "Pessac-L\u00e9ognan",
+   396
+  ],
+  [
+   "Mendocino County",
+   391
+  ],
+  [
+   "Rogue Valley",
+   384
+  ],
+  [
+   "Collio",
+   379
+  ],
+  [
+   "Haut-M\u00e9doc",
+   373
+  ],
+  [
+   "Mendocino",
+   365
+  ],
+  [
+   "North Coast",
+   356
+  ],
+  [
+   "Wahluke Slope",
+   348
+  ],
+  [
+   "McLaren Vale",
+   347
+  ],
+  [
+   "Monterey",
+   347
+  ],
+  [
+   "R\u00edas Baixas",
+   345
+  ],
+  [
+   "Monterey County",
+   342
+  ],
+  [
+   "Blaye C\u00f4tes de Bordeaux",
+   341
+  ],
+  [
+   "Rosso di Montalcino",
+   338
+  ],
+  [
+   "Chehalem Mountains",
+   334
+  ],
+  [
+   "El Dorado",
+   310
+  ],
+  [
+   "Pouilly-Fuiss\u00e9",
+   310
+  ],
+  [
+   "M\u00e9doc",
+   305
+  ],
+  [
+   "Rueda",
+   302
+  ],
+  [
+   "Vin de France",
+   288
+  ],
+  [
+   "Oakville",
+   288
+  ],
+  [
+   "Lake County",
+   278
+  ],
+  [
+   "Cr\u00e9mant d'Alsace",
+   277
+  ],
+  [
+   "Eola-Amity Hills",
+   276
+  ],
+  [
+   "Uco Valley",
+   273
+  ],
+  [
+   "Etna",
+   268
+  ],
+  [
+   "Margaux",
+   264
+  ],
+  [
+   "Franciacorta",
+   256
+  ],
+  [
+   "Priorat",
+   256
+  ],
+  [
+   "C\u00f4tes du Rh\u00f4ne",
+   254
+  ],
+  [
+   "Vino Nobile di Montepulciano",
+   252
+  ],
+  [
+   "Conegliano Valdobbiadene Prosecco Superiore",
+   251
+  ],
+  [
+   "Bourgogne",
+   241
+  ],
+  [
+   "Muscadet S\u00e8vre et Maine",
+   237
+  ],
+  [
+   "St. Helena",
+   232
+  ],
+  [
+   "Umpqua Valley",
+   232
+  ],
+  [
+   "Beaujolais-Villages",
+   224
+  ],
+  [
+   "Navarra",
+   223
+  ],
+  [
+   "Colli Orientali del Friuli",
+   217
+  ],
+  [
+   "Pauillac",
+   214
+  ],
+  [
+   "Bolgheri",
+   214
+  ],
+  [
+   "Terre Siciliane",
+   213
+  ],
+  [
+   "Arroyo Seco",
+   211
+  ],
+  [
+   "Toro",
+   209
+  ],
+  [
+   "South Eastern Australia",
+   207
+  ],
+  [
+   "Saint-Est\u00e8phe",
+   205
+  ],
+  [
+   "Green Valley",
+   205
+  ],
+  [
+   "Vino de la Tierra de Castilla",
+   205
+  ],
+  [
+   "C\u00f4tes de Gascogne",
+   198
+  ],
+  [
+   "Tupungato",
+   197
+  ],
+  [
+   "Bordeaux Ros\u00e9",
+   196
+  ],
+  [
+   "Jumilla",
+   191
+  ],
+  [
+   "Morellino di Scansano",
+   190
+  ],
+  [
+   "Amarone della Valpolicella",
+   185
+  ],
+  [
+   "Ch\u00e2teauneuf-du-Pape",
+   184
+  ],
+  [
+   "Pomerol",
+   183
+  ],
+  [
+   "Luj\u00e1n de Cuyo",
+   180
+  ],
+  [
+   "Bierzo",
+   180
+  ],
+  [
+   "Valdobbiadene Prosecco Superiore",
+   180
+  ],
+  [
+   "Howell Mountain",
+   175
+  ],
+  [
+   "South Australia",
+   173
+  ],
+  [
+   "Beaune",
+   172
+  ],
+  [
+   "Lugana",
+   171
+  ],
+  [
+   "Mount Veeder",
+   169
+  ],
+  [
+   "Barossa Valley",
+   167
+  ],
+  [
+   "Margaret River",
+   167
+  ],
+  [
+   "Temecula Valley",
+   166
+  ],
+  [
+   "Happy Canyon of Santa Barbara",
+   166
+  ],
+  [
+   "Saint-Julien",
+   166
+  ],
+  [
+   "Salento",
+   165
+  ],
+  [
+   "Prosecco",
+   165
+  ],
+  [
+   "Arroyo Grande Valley",
+   163
+  ],
+  [
+   "New York",
+   163
+  ],
+  [
+   "Veneto",
+   162
+  ],
+  [
+   "Valpolicella Classico Superiore Ripasso",
+   161
+  ],
+  [
+   "Cari\u00f1ena",
+   160
+  ],
+  [
+   "Soave Classico",
+   159
+  ],
+  [
+   "Monticello",
+   155
+  ],
+  [
+   "Stags Leap District",
+   155
+  ],
+  [
+   "Diamond Mountain District",
+   154
+  ],
+  [
+   "Castillon C\u00f4tes de Bordeaux",
+   154
+  ],
+  [
+   "Okanagan Valley",
+   154
+  ],
+  [
+   "Pouilly-Fum\u00e9",
+   153
+  ],
+  [
+   "Applegate Valley",
+   153
+  ],
+  [
+   "Vouvray",
+   153
+  ],
+  [
+   "Saint-V\u00e9ran",
+   152
+  ],
+  [
+   "Coteaux d'Aix-en-Provence",
+   150
+  ],
+  [
+   "Calistoga",
+   149
+  ],
+  [
+   "Barbera d'Alba",
+   148
+  ],
+  [
+   "Vernaccia di San Gimignano",
+   146
+  ],
+  [
+   "Morgon",
+   146
+  ],
+  [
+   "Meursault",
+   145
+  ],
+  [
+   "Sauternes",
+   145
+  ],
+  [
+   "Montepulciano d'Abruzzo",
+   143
+  ],
+  [
+   "Shenandoah Valley (CA)",
+   143
+  ],
+  [
+   "Sonoma Mountain",
+   142
+  ],
+  [
+   "Campo de Borja",
+   140
+  ],
+  [
+   "Barossa",
+   138
+  ],
+  [
+   "Chianti",
+   138
+  ],
+  [
+   "Spring Mountain District",
+   136
+  ],
+  [
+   "Oak Knoll District",
+   135
+  ],
+  [
+   "Seneca Lake",
+   135
+  ],
+  [
+   "Ribbon Ridge",
+   134
+  ],
+  [
+   "Savigny-l\u00e8s-Beaune",
+   134
+  ],
+  [
+   "Graves",
+   133
+  ],
+  [
+   "Knights Valley",
+   132
+  ],
+  [
+   "M\u00e2con-Villages",
+   132
+  ],
+  [
+   "San Luis Obispo County",
+   130
+  ],
+  [
+   "Clare Valley",
+   129
+  ],
+  [
+   "Barbera d'Asti",
+   129
+  ],
+  [
+   "Roero",
+   127
+  ],
+  [
+   "Delle Venezie",
+   127
+  ],
+  [
+   "McMinnville",
+   124
+  ],
+  [
+   "Jerez",
+   124
+  ],
+  [
+   "Pays d'Oc",
+   124
+  ],
+  [
+   "Vino de la Tierra de Castilla y Le\u00f3n",
+   123
+  ],
+  [
+   "Cadillac C\u00f4tes de Bordeaux",
+   123
+  ],
+  [
+   "Southern Oregon",
+   122
+  ],
+  [
+   "Nuits-St.-Georges",
+   122
+  ],
+  [
+   "Beaujolais",
+   120
+  ],
+  [
+   "Walla Walla Valley (OR)",
+   119
+  ],
+  [
+   "Chassagne-Montrachet",
+   118
+  ],
+  [
+   "Taurasi",
+   118
+  ],
+  [
+   "Mercurey",
+   117
+  ],
+  [
+   "Langhe",
+   116
+  ],
+  [
+   "Pened\u00e8s",
+   116
+  ],
+  [
+   "Rosso di Montepulciano",
+   114
+  ],
+  [
+   "Yarra Valley",
+   111
+  ],
+  [
+   "Umbria",
+   111
+  ],
+  [
+   "Madiran",
+   110
+  ],
+  [
+   "Trentino",
+   110
+  ],
+  [
+   "Costi\u00e8res de N\u00eemes",
+   110
+  ],
+  [
+   "Gaillac",
+   110
+  ],
+  [
+   "Adelaida District",
+   110
+  ],
+  [
+   "Fiano di Avellino",
+   109
+  ],
+  [
+   "Puglia",
+   108
+  ],
+  [
+   "La Mancha",
+   108
+  ],
+  [
+   "Puligny-Montrachet",
+   108
+  ],
+  [
+   "Adelaide Hills",
+   107
+  ],
+  [
+   "Moulin-\u00e0-Vent",
+   106
+  ],
+  [
+   "Moscato d'Asti",
+   106
+  ],
+  [
+   "Clarksburg",
+   105
+  ],
+  [
+   "Bandol",
+   105
+  ],
+  [
+   "Santa Clara Valley",
+   104
+  ],
+  [
+   "Venezia Giulia",
+   104
+  ],
+  [
+   "Greco di Tufo",
+   103
+  ],
+  [
+   "Soave",
+   101
+  ],
+  [
+   "C\u00f4tes de Bourg",
+   101
+  ],
+  [
+   "Montsant",
+   100
+  ],
+  [
+   "Calaveras County",
+   98
+  ],
+  [
+   "Rattlesnake Hills",
+   98
+  ],
+  [
+   "Carmel Valley",
+   96
+  ],
+  [
+   "Maremma Toscana",
+   96
+  ],
+  [
+   "Campania",
+   94
+  ],
+  [
+   "Gevrey-Chambertin",
+   94
+  ],
+  [
+   "Cafayate",
+   93
+  ],
+  [
+   "Yountville",
+   92
+  ],
+  [
+   "Vin de Pays d'Oc",
+   92
+  ],
+  [
+   "Vino Spumante",
+   92
+  ],
+  [
+   "Prosecco di Valdobbiadene",
+   91
+  ],
+  [
+   "Barbera d'Asti Superiore",
+   91
+  ],
+  [
+   "Red Hills Lake County",
+   91
+  ],
+  [
+   "Fleurie",
+   91
+  ],
+  [
+   "Aglianico del Vulture",
+   90
+  ],
+  [
+   "Valencia",
+   90
+  ],
+  [
+   "Trento",
+   90
+  ],
+  [
+   "Salta",
+   89
+  ],
+  [
+   "Bolgheri Superiore",
+   89
+  ],
+  [
+   "Chalk Hill",
+   88
+  ],
+  [
+   "Dolcetto d'Alba",
+   87
+  ],
+  [
+   "Columbia Gorge (WA)",
+   86
+  ],
+  [
+   "Mendocino Ridge",
+   86
+  ],
+  [
+   "Alicante",
+   86
+  ],
+  [
+   "Pommard",
+   86
+  ],
+  [
+   "Brouilly",
+   85
+  ],
+  [
+   "Touraine",
+   85
+  ],
+  [
+   "Valle de Uco",
+   83
+  ],
+  [
+   "Maremma",
+   82
+  ],
+  [
+   "Los Carneros",
+   81
+  ],
+  [
+   "Calatayud",
+   80
+  ],
+  [
+   "Irpinia",
+   80
+  ],
+  [
+   "Ballard Canyon",
+   79
+  ],
+  [
+   "Yorkville Highlands",
+   79
+  ],
+  [
+   "Napa County",
+   78
+  ],
+  [
+   "Volnay",
+   78
+  ],
+  [
+   "Vigneti delle Dolomiti",
+   76
+  ],
+  [
+   "Bennett Valley",
+   75
+  ],
+  [
+   "Lalande de Pomerol",
+   75
+  ],
+  [
+   "Friuli Grave",
+   74
+  ],
+  [
+   "San Juan",
+   73
+  ],
+  [
+   "Isola dei Nuraghi",
+   73
+  ],
+  [
+   "Contra Costa County",
+   73
+  ],
+  [
+   "Columbia Valley (OR)",
+   73
+  ],
+  [
+   "Columbia Gorge (OR)",
+   73
+  ],
+  [
+   "Rockpile",
+   72
+  ],
+  [
+   "Cayuga Lake",
+   72
+  ],
+  [
+   "Cr\u00e9mant de Bourgogne",
+   72
+  ],
+  [
+   "Chinon",
+   72
+  ],
+  [
+   "Verdicchio dei Castelli di Jesi Classico Superiore",
+   72
+  ],
+  [
+   "Chalone",
+   71
+  ],
+  [
+   "Romagna",
+   69
+  ],
+  [
+   "Chambolle-Musigny",
+   69
+  ],
+  [
+   "Menetou-Salon",
+   69
+  ],
+  [
+   "Terra Alta",
+   69
+  ],
+  [
+   "Listrac-M\u00e9doc",
+   68
+  ],
+  [
+   "Atlas Peak",
+   68
+  ],
+  [
+   "Somontano",
+   68
+  ],
+  [
+   "Hudson River Region",
+   67
+  ],
+  [
+   "Texas",
+   66
+  ],
+  [
+   "Patagonia",
+   66
+  ],
+  [
+   "Chianti Rufina",
+   66
+  ],
+  [
+   "Mt. Harlan",
+   65
+  ],
+  [
+   "Coonawarra",
+   64
+  ],
+  [
+   "Fort Ross-Seaview",
+   64
+  ],
+  [
+   "Gavi",
+   62
+  ],
+  [
+   "Long Island",
+   62
+  ],
+  [
+   "Montefalco Sagrantino",
+   62
+  ],
+  [
+   "C\u00f4tes de Provence Sainte-Victoire",
+   61
+  ],
+  [
+   "Western Australia",
+   61
+  ],
+  [
+   "Spain",
+   61
+  ],
+  [
+   "Victoria",
+   61
+  ],
+  [
+   "Montefalco Rosso",
+   60
+  ],
+  [
+   "Potter Valley",
+   59
+  ],
+  [
+   "Valpolicella Classico Superiore",
+   59
+  ],
+  [
+   "South Coast",
+   58
+  ],
+  [
+   "Vosne-Roman\u00e9e",
+   58
+  ],
+  [
+   "Utiel-Requena",
+   58
+  ],
+  [
+   "Coteaux Varois en Provence",
+   57
+  ],
+  [
+   "Snipes Mountain",
+   57
+  ],
+  [
+   "Fronton",
+   57
+  ],
+  [
+   "Ancient Lakes",
+   56
+  ],
+  [
+   "Juli\u00e9nas",
+   56
+  ],
+  [
+   "Verdicchio dei Castelli di Jesi Classico",
+   56
+  ],
+  [
+   "Paso Robles Willow Creek District",
+   56
+  ],
+  [
+   "Santenay",
+   56
+  ],
+  [
+   "Moulis-en-M\u00e9doc",
+   56
+  ],
+  [
+   "Valpolicella Superiore Ripasso",
+   56
+  ],
+  [
+   "Coombsville",
+   55
+  ],
+  [
+   "Eden Valley",
+   55
+  ],
+  [
+   "Marin County",
+   55
+  ],
+  [
+   "Bergerac Sec",
+   54
+  ],
+  [
+   "C\u00f4tes de Bordeaux",
+   54
+  ],
+  [
+   "Vin Mousseux",
+   54
+  ],
+  [
+   "Niagara Peninsula",
+   54
+  ],
+  [
+   "Cr\u00e9mant de Loire",
+   54
+  ],
+  [
+   "Valpolicella Classico",
+   54
+  ],
+  [
+   "Montecucco",
+   54
+  ],
+  [
+   "Marsannay",
+   53
+  ],
+  [
+   "Barbera d'Alba Superiore",
+   53
+  ],
+  [
+   "Prosecco di Conegliano e Valdobbiadene",
+   51
+  ],
+  [
+   "Chiroubles",
+   51
+  ],
+  [
+   "Lake Chelan",
+   51
+  ],
+  [
+   "C\u00f4tes du Rh\u00f4ne Villages",
+   50
+  ],
+  [
+   "Valdeorras",
+   50
+  ],
+  [
+   "Agrelo",
+   50
+  ],
+  [
+   "Barsac",
+   50
+  ],
+  [
+   "Tavel",
+   49
+  ],
+  [
+   "Vir\u00e9-Cless\u00e9",
+   49
+  ],
+  [
+   "Calchaqu\u00ed Valley",
+   48
+  ],
+  [
+   "Bergerac",
+   48
+  ],
+  [
+   "Valtellina Superiore",
+   48
+  ],
+  [
+   "Corse",
+   48
+  ],
+  [
+   "La Consulta",
+   48
+  ],
+  [
+   "Yolo County",
+   47
+  ],
+  [
+   "Hunter Valley",
+   47
+  ],
+  [
+   "Crozes-Hermitage",
+   47
+  ],
+  [
+   "Cortona",
+   46
+  ],
+  [
+   "Old Mission Peninsula",
+   46
+  ],
+  [
+   "Saint-Aubin",
+   46
+  ],
+  [
+   "Clos de Vougeot",
+   45
+  ],
+  [
+   "Fronsac",
+   45
+  ],
+  [
+   "Nebbiolo d'Alba",
+   45
+  ],
+  [
+   "Piave",
+   45
+  ],
+  [
+   "Vermentino di Sardegna",
+   45
+  ],
+  [
+   "New Mexico",
+   45
+  ],
+  [
+   "Salice Salentino",
+   45
+  ],
+  [
+   "High Valley",
+   45
+  ],
+  [
+   "Friuli Isonzo",
+   45
+  ],
+  [
+   "Juran\u00e7on",
+   44
+  ],
+  [
+   "Valdobbiadene Superiore di Cartizze",
+   44
+  ],
+  [
+   "Prosecco Treviso",
+   44
+  ],
+  [
+   "Piedmont",
+   43
+  ],
+  [
+   "Hermitage",
+   43
+  ],
+  [
+   "Valpolicella Superiore",
+   43
+  ],
+  [
+   "Friuli Colli Orientali",
+   43
+  ],
+  [
+   "Tasmania",
+   42
+  ],
+  [
+   "Minervois",
+   42
+  ],
+  [
+   "Catalunya",
+   42
+  ],
+  [
+   "Condrieu",
+   42
+  ],
+  [
+   "Valdepe\u00f1as",
+   41
+  ],
+  [
+   "Grand Valley",
+   41
+  ],
+  [
+   "Val de Loire",
+   41
+  ],
+  [
+   "Alto Adige Valle Isarco",
+   40
+  ],
+  [
+   "Saumur",
+   40
+  ],
+  [
+   "Marche",
+   40
+  ],
+  [
+   "Chianti Colli Senesi",
+   40
+  ],
+  [
+   "Veronese",
+   40
+  ],
+  [
+   "Colli della Toscana Centrale",
+   39
+  ],
+  [
+   "Fair Play",
+   39
+  ],
+  [
+   "Dunnigan Hills",
+   39
+  ],
+  [
+   "Saint-Amour",
+   39
+  ],
+  [
+   "Coteaux du Languedoc",
+   39
+  ],
+  [
+   "Fiddletown",
+   39
+  ],
+  [
+   "Neuqu\u00e9n",
+   39
+  ],
+  [
+   "Corton-Charlemagne",
+   39
+  ],
+  [
+   "Castel del Monte",
+   39
+  ],
+  [
+   "Templeton Gap District",
+   38
+  ],
+  [
+   "Gattinara",
+   38
+  ],
+  [
+   "San Benito County",
+   38
+  ],
+  [
+   "Pernand-Vergelesses",
+   38
+  ],
+  [
+   "C\u00f4tes du Lot",
+   37
+  ],
+  [
+   "Montagne-Saint-\u00c9milion",
+   37
+  ],
+  [
+   "Francs C\u00f4tes de Bordeaux",
+   37
+  ],
+  [
+   "Langhorne Creek",
+   37
+  ],
+  [
+   "Sant'Antimo",
+   37
+  ],
+  [
+   "Juran\u00e7on Sec",
+   37
+  ],
+  [
+   "Sagrantino di Montefalco",
+   36
+  ],
+  [
+   "Prosecco del Veneto",
+   36
+  ],
+  [
+   "Primitivo di Manduria",
+   36
+  ],
+  [
+   "Entre-Deux-Mers",
+   36
+  ],
+  [
+   "Getariako Txakolina",
+   36
+  ],
+  [
+   "Anjou",
+   36
+  ],
+  [
+   "Valpolicella",
+   36
+  ],
+  [
+   "Argentina",
+   36
+  ],
+  [
+   "Cannonau di Sardegna",
+   35
+  ],
+  [
+   "Redwood Valley",
+   35
+  ],
+  [
+   "Ventoux",
+   35
+  ],
+  [
+   "Corbi\u00e8res",
+   35
+  ],
+  [
+   "Corton",
+   35
+  ],
+  [
+   "Montagny",
+   35
+  ],
+  [
+   "Ros\u00e9 d'Anjou",
+   35
+  ],
+  [
+   "Rully",
+   35
+  ],
+  [
+   "Dominio de Valdepusa",
+   34
+  ],
+  [
+   "Les Baux de Provence",
+   34
+  ],
+  [
+   "Mediterran\u00e9e",
+   34
+  ],
+  [
+   "Cornas",
+   34
+  ],
+  [
+   "Aloxe-Corton",
+   34
+  ],
+  [
+   "Arbois",
+   33
+  ],
+  [
+   "Gigondas",
+   33
+  ],
+  [
+   "C\u00f4te de Brouilly",
+   33
+  ],
+  [
+   "Ile de Beaut\u00e9",
+   32
+  ],
+  [
+   "M\u00e1laga",
+   32
+  ],
+  [
+   "Saint-Joseph",
+   32
+  ],
+  [
+   "Shenandoah Valley",
+   32
+  ],
+  [
+   "Ech\u00e9zeaux",
+   32
+  ],
+  [
+   "Padthaway",
+   31
+  ],
+  [
+   "Vin de Pays des C\u00f4tes de Gascogne",
+   31
+  ],
+  [
+   "Rutherglen",
+   31
+  ],
+  [
+   "Australia",
+   31
+  ],
+  [
+   "Paicines",
+   31
+  ],
+  [
+   "Coteaux du Giennois",
+   31
+  ],
+  [
+   "Prosecco Superiore di Cartizze",
+   31
+  ],
+  [
+   "Lambrusco Grasparossa di Castelvetro",
+   31
+  ],
+  [
+   "Terre del Volturno",
+   31
+  ],
+  [
+   "C\u00f4te R\u00f4tie",
+   31
+  ],
+  [
+   "Languedoc",
+   30
+  ],
+  [
+   "Heathcote",
+   30
+  ],
+  [
+   "Suisun Valley",
+   30
+  ],
+  [
+   "Coteaux Bourguignons",
+   30
+  ],
+  [
+   "Isonzo del Friuli",
+   30
+  ],
+  [
+   "Bourgogne Hautes C\u00f4tes de Nuits",
+   30
+  ],
+  [
+   "Solano County",
+   30
+  ],
+  [
+   "Middleburg",
+   29
+  ],
+  [
+   "Ribeiro",
+   29
+  ],
+  [
+   "C\u00f4tes du Marmandais",
+   29
+  ],
+  [
+   "Valpolicella Ripasso",
+   29
+  ],
+  [
+   "Petit Chablis",
+   29
+  ],
+  [
+   "C\u00f4tes de Bergerac",
+   29
+  ],
+  [
+   "Lambrusco di Sorbara",
+   29
+  ],
+  [
+   "Beaujolais Blanc",
+   29
+  ],
+  [
+   "Idaho",
+   28
+  ],
+  [
+   "Chorey-l\u00e8s-Beaune",
+   28
+  ],
+  [
+   "Alta Langa",
+   28
+  ],
+  [
+   "C\u00f4tes du Jura",
+   28
+  ],
+  [
+   "C\u00f4tes du Tarn",
+   28
+  ],
+  [
+   "Clear Lake",
+   28
+  ],
+  [
+   "Lake Michigan Shore",
+   27
+  ],
+  [
+   "Perdriel",
+   27
+  ],
+  [
+   "Ribeira Sacra",
+   27
+  ],
+  [
+   "Leelanau Peninsula",
+   27
+  ],
+  [
+   "Colorado",
+   27
+  ],
+  [
+   "Cochise County",
+   27
+  ],
+  [
+   "Costers del Segre",
+   27
+  ],
+  [
+   "Lussac Saint-\u00c9milion",
+   26
+  ],
+  [
+   "Sonoma County-Napa County",
+   26
+  ],
+  [
+   "Muscadet C\u00f4tes de Grandlieu",
+   26
+  ],
+  [
+   "Lazio",
+   26
+  ],
+  [
+   "Napa County-Sonoma County",
+   26
+  ],
+  [
+   "Recioto della Valpolicella Classico",
+   26
+  ],
+  [
+   "Temecula",
+   26
+  ],
+  [
+   "Elkton Oregon",
+   26
+  ],
+  [
+   "Cigales",
+   26
+  ],
+  [
+   "Mornington Peninsula",
+   25
+  ],
+  [
+   "Trebbiano d'Abruzzo",
+   25
+  ],
+  [
+   "Verdicchio dei Castelli di Jesi",
+   25
+  ],
+  [
+   "Orvieto Classico Superiore",
+   25
+  ],
+  [
+   "Missouri",
+   25
+  ],
+  [
+   "Savoie",
+   25
+  ],
+  [
+   "Terre di Chieti",
+   25
+  ],
+  [
+   "Vittoria",
+   24
+  ],
+  [
+   "Patrimonio",
+   24
+  ],
+  [
+   "Alella",
+   24
+  ],
+  [
+   "Maip\u00fa",
+   24
+  ],
+  [
+   "Vin de Savoie",
+   24
+  ],
+  [
+   "Yecla",
+   24
+  ],
+  [
+   "Alto Valle del R\u00edo Negro",
+   24
+  ],
+  [
+   "Saint-Nicolas-de-Bourgueil",
+   24
+  ],
+  [
+   "Puisseguin Saint-\u00c9milion",
+   24
+  ],
+  [
+   "Bourgueil",
+   24
+  ],
+  [
+   "Offida Pecorino",
+   24
+  ],
+  [
+   "Chianti Superiore",
+   24
+  ],
+  [
+   "Italy",
+   23
+  ],
+  [
+   "Saumur-Champigny",
+   23
+  ],
+  [
+   "Basilicata",
+   23
+  ],
+  [
+   "Reuilly",
+   23
+  ],
+  [
+   "Givry",
+   23
+  ],
+  [
+   "Bordeaux Clairet",
+   23
+  ],
+  [
+   "Clarendon",
+   23
+  ],
+  [
+   "Pacherenc du Vic Bilh",
+   23
+  ],
+  [
+   "Carneros-Napa Valley",
+   23
+  ],
+  [
+   "Lirac",
+   23
+  ],
+  [
+   "R\u00e9gni\u00e9",
+   22
+  ],
+  [
+   "Rosso del Veronese",
+   22
+  ],
+  [
+   "Vin Santo del Chianti Classico",
+   22
+  ],
+  [
+   "Sangiovese di Romagna Superiore",
+   22
+  ],
+  [
+   "Cienega Valley",
+   22
+  ],
+  [
+   "Saint-Chinian",
+   22
+  ],
+  [
+   "Monferrato",
+   21
+  ],
+  [
+   "Sannio",
+   21
+  ],
+  [
+   "Naches Heights",
+   21
+  ],
+  [
+   "Almansa",
+   21
+  ],
+  [
+   "Savenni\u00e8res",
+   21
+  ],
+  [
+   "Rosso Piceno",
+   21
+  ],
+  [
+   "Coteaux Varois",
+   21
+  ],
+  [
+   "Ben Lomond Mountain",
+   21
+  ],
+  [
+   "Lacryma Christi del Vesuvio",
+   21
+  ],
+  [
+   "Chianti Colli Fiorentini",
+   21
+  ],
+  [
+   "Cerasuolo di Vittoria",
+   20
+  ],
+  [
+   "Vacqueyras",
+   20
+  ],
+  [
+   "Barbera d'Asti Superiore Nizza",
+   20
+  ],
+  [
+   "Great Southern",
+   20
+  ],
+  [
+   "Mokelumne River",
+   20
+  ],
+  [
+   "Vista Flores",
+   20
+  ],
+  [
+   "Quincy",
+   20
+  ],
+  [
+   "Buzet",
+   20
+  ],
+  [
+   "Frankland River",
+   20
+  ],
+  [
+   "El Dorado County",
+   20
+  ],
+  [
+   "R\u00edo Negro Valley",
+   20
+  ],
+  [
+   "Napa-Sonoma",
+   19
+  ],
+  [
+   "Ch\u00e9nas",
+   19
+  ],
+  [
+   "Sonoma-Napa",
+   19
+  ],
+  [
+   "Empord\u00e0",
+   19
+  ],
+  [
+   "Calabria",
+   19
+  ],
+  [
+   "Morey-Saint-Denis",
+   19
+  ],
+  [
+   "The Hamptons, Long Island",
+   19
+  ],
+  [
+   "C\u00f4tes du Roussillon Villages",
+   19
+  ],
+  [
+   "Moon Mountain District Sonoma County",
+   19
+  ],
+  [
+   "Carmignano",
+   19
+  ],
+  [
+   "Premieres C\u00f4tes de Bordeaux",
+   19
+  ],
+  [
+   "Friuli",
+   18
+  ],
+  [
+   "Northern Sonoma",
+   18
+  ],
+  [
+   "Beaujolais Ros\u00e9",
+   18
+  ],
+  [
+   "Texas High Plains",
+   18
+  ],
+  [
+   "Pennsylvania",
+   18
+  ],
+  [
+   "Cerasuolo di Vittoria Classico",
+   18
+  ],
+  [
+   "Luberon",
+   18
+  ],
+  [
+   "Faug\u00e8res",
+   18
+  ],
+  [
+   "Bourgogne Hautes C\u00f4tes de Beaune",
+   18
+  ],
+  [
+   "Montilla-Moriles",
+   18
+  ],
+  [
+   "Ghemme",
+   18
+  ],
+  [
+   "Carignano del Sulcis",
+   18
+  ],
+  [
+   "Val di Cornia Suvereto",
+   18
+  ],
+  [
+   "Limestone Coast",
+   18
+  ],
+  [
+   "Pouilly-Vinzelles",
+   18
+  ],
+  [
+   "Passito di Pantelleria",
+   18
+  ],
+  [
+   "C\u00f4tes du Roussillon",
+   18
+  ],
+  [
+   "Beneventano",
+   18
+  ],
+  [
+   "Venezie",
+   18
+  ],
+  [
+   "M\u00e2con-Lugny",
+   18
+  ],
+  [
+   "Limoux",
+   18
+  ],
+  [
+   "Campi Flegrei",
+   18
+  ],
+  [
+   "C\u00f4te de Nuits-Villages",
+   17
+  ],
+  [
+   "Charmes-Chambertin",
+   17
+  ],
+  [
+   "Colline Pescaresi",
+   17
+  ],
+  [
+   "Vin de Pays Var",
+   17
+  ],
+  [
+   "Montepulciano d'Abruzzo Colline Teramane",
+   17
+  ],
+  [
+   "Rosso Conero",
+   17
+  ],
+  [
+   "Tulum Valley",
+   17
+  ],
+  [
+   "Saint-Mont",
+   17
+  ],
+  [
+   "Bourgogne Aligot\u00e9",
+   17
+  ],
+  [
+   "Pouilly-Loch\u00e9",
+   17
+  ],
+  [
+   "Prosecco di Conegliano",
+   16
+  ],
+  [
+   "Monbazillac",
+   16
+  ],
+  [
+   "Bardolino Chiaretto",
+   16
+  ],
+  [
+   "Recioto di Soave",
+   16
+  ],
+  [
+   "Adelaide",
+   16
+  ],
+  [
+   "Orvieto Classico",
+   16
+  ],
+  [
+   "Fixin",
+   16
+  ],
+  [
+   "Sforzato di Valtellina",
+   16
+  ],
+  [
+   "Asti",
+   16
+  ],
+  [
+   "Vino da Tavola",
+   16
+  ],
+  [
+   "Clements Hills",
+   16
+  ],
+  [
+   "C\u00f4te Chalonnaise",
+   15
+  ],
+  [
+   "Saint-Bris",
+   15
+  ],
+  [
+   "Colline Novaresi",
+   15
+  ],
+  [
+   "Coteaux du Layon",
+   15
+  ],
+  [
+   "San Luis Obispo",
+   15
+  ],
+  [
+   "B\u00e2tard-Montrachet",
+   15
+  ],
+  [
+   "Vermentino di Gallura",
+   15
+  ],
+  [
+   "Hautes C\u00f4tes de Nuits",
+   15
+  ],
+  [
+   "Conca de Barber\u00e0",
+   15
+  ],
+  [
+   "Soave Classico Superiore",
+   15
+  ],
+  [
+   "Orvieto",
+   15
+  ],
+  [
+   "Asolo Prosecco Superiore",
+   15
+  ],
+  [
+   "Montravel",
+   14
+  ],
+  [
+   "Vin de Liqueur",
+   14
+  ],
+  [
+   "Michigan",
+   14
+  ],
+  [
+   "Falerno del Massico",
+   14
+  ],
+  [
+   "Santa Barbara",
+   14
+  ],
+  [
+   "Molise",
+   14
+  ],
+  [
+   "Friuli Aquileia",
+   14
+  ],
+  [
+   "M\u00e2con-Chardonnay",
+   14
+  ],
+  [
+   "Conero",
+   14
+  ],
+  [
+   "Pine Mountain-Cloverdale Peak",
+   14
+  ],
+  [
+   "Val di Neto",
+   14
+  ],
+  [
+   "Chevalier-Montrachet",
+   14
+  ],
+  [
+   "Bardolino",
+   14
+  ],
+  [
+   "Orcia",
+   14
+  ],
+  [
+   "C\u00f4tes de Provence La Londe",
+   14
+  ],
+  [
+   "San Francisco Bay",
+   14
+  ],
+  [
+   "Bendigo",
+   14
+  ],
+  [
+   "Valdadige",
+   13
+  ],
+  [
+   "Coste della Sesia",
+   13
+  ],
+  [
+   "Cucamonga Valley",
+   13
+  ],
+  [
+   "Rivesaltes",
+   13
+  ],
+  [
+   "Taburno",
+   13
+  ],
+  [
+   "Auxey-Duresses",
+   13
+  ],
+  [
+   "Aglianico del Taburno",
+   13
+  ],
+  [
+   "M\u00e2con La Roche Vineuse",
+   13
+  ],
+  [
+   "Barbera del Monferrato",
+   13
+  ],
+  [
+   "Chambertin",
+   13
+  ],
+  [
+   "Cir\u00f2",
+   13
+  ],
+  [
+   "Verdicchio di Matelica",
+   13
+  ],
+  [
+   "Chiles Valley",
+   12
+  ],
+  [
+   "Dolcetto di Dogliani",
+   12
+  ],
+  [
+   "Frascati Superiore",
+   12
+  ],
+  [
+   "Pyrenees",
+   12
+  ],
+  [
+   "Nagambie Lakes",
+   12
+  ],
+  [
+   "Chambertin Clos de B\u00e8ze",
+   12
+  ],
+  [
+   "Swan Creek",
+   12
+  ],
+  [
+   "Santa Margarita Ranch",
+   12
+  ],
+  [
+   "Pomino",
+   12
+  ],
+  [
+   "Madera",
+   12
+  ],
+  [
+   "Arizona",
+   12
+  ],
+  [
+   "M\u00e2con-Milly Lamartine",
+   11
+  ],
+  [
+   "Cr\u00e9mant de Jura",
+   11
+  ],
+  [
+   "Ucl\u00e9s",
+   11
+  ],
+  [
+   "Ruch\u00e9 di Castagnole Monferrato",
+   11
+  ],
+  [
+   "Pemberton",
+   11
+  ],
+  [
+   "M\u00e2con-Fuiss\u00e9",
+   11
+  ],
+  [
+   "Minervois La Liviniere",
+   11
+  ],
+  [
+   "La Rioja",
+   11
+  ],
+  [
+   "Emilia",
+   11
+  ],
+  [
+   "Grands-Echezeaux",
+   11
+  ],
+  [
+   "Var",
+   11
+  ],
+  [
+   "Lake Erie North Shore",
+   11
+  ],
+  [
+   "Guenoc Valley",
+   11
+  ],
+  [
+   "New South Wales",
+   11
+  ],
+  [
+   "Marcillac",
+   11
+  ],
+  [
+   "Bramaterra",
+   11
+  ],
+  [
+   "Emilia-Romagna",
+   11
+  ],
+  [
+   "Barbera del Monferrato Superiore",
+   11
+  ],
+  [
+   "Extremadura",
+   11
+  ],
+  [
+   "Vi de la Terra Mallorca",
+   11
+  ],
+  [
+   "Erice",
+   11
+  ],
+  [
+   "Alto Adige Terlano",
+   10
+  ],
+  [
+   "Terra degli Osci",
+   10
+  ],
+  [
+   "Lessona",
+   10
+  ],
+  [
+   "Roero Arneis",
+   10
+  ],
+  [
+   "Forl\u00ec",
+   10
+  ],
+  [
+   "San Antonio Valley",
+   10
+  ],
+  [
+   "Famatina Valley",
+   10
+  ],
+  [
+   "Grand River Valley",
+   10
+  ],
+  [
+   "Vin de Pays du Comt\u00e9 Tolosan",
+   10
+  ],
+  [
+   "Beamsville Bench",
+   10
+  ],
+  [
+   "Premieres C\u00f4tes de Blaye",
+   10
+  ],
+  [
+   "Corton Vergennes",
+   10
+  ],
+  [
+   "Colli Piacentini",
+   10
+  ],
+  [
+   "C\u00f4te de Beaune",
+   10
+  ],
+  [
+   "Friuli Venezia Giulia",
+   10
+  ],
+  [
+   "Manchuela",
+   10
+  ],
+  [
+   "Montescudaio",
+   10
+  ],
+  [
+   "Vinos de Madrid",
+   10
+  ],
+  [
+   "Niagara-On-The-Lake",
+   9
+  ],
+  [
+   "Gers",
+   9
+  ],
+  [
+   "Faro",
+   9
+  ],
+  [
+   "Colli Trevigiani",
+   9
+  ],
+  [
+   "Lambrusco di Modena",
+   9
+  ],
+  [
+   "Anjou Villages Brissac",
+   9
+  ],
+  [
+   "Quarts de Chaume",
+   9
+  ],
+  [
+   "Colli Aprutini",
+   9
+  ],
+  [
+   "Vin de Pays du Val de Loire",
+   9
+  ],
+  [
+   "San Bernabe",
+   9
+  ],
+  [
+   "Pla de Bages",
+   9
+  ],
+  [
+   "Clos de la Roche",
+   9
+  ],
+  [
+   "M\u00e2con-Cruzille",
+   9
+  ],
+  [
+   "Humboldt County",
+   9
+  ],
+  [
+   "Muscadet",
+   9
+  ],
+  [
+   "Sable de Camargue",
+   9
+  ],
+  [
+   "C\u00f4tes Catalanes",
+   9
+  ],
+  [
+   "Falanghina del Sannio",
+   9
+  ],
+  [
+   "Rosso di Toscana",
+   9
+  ],
+  [
+   "Coteaux du Vend\u00f4mois",
+   9
+  ],
+  [
+   "Rosso Piceno Superiore",
+   9
+  ],
+  [
+   "Pompeiano",
+   9
+  ],
+  [
+   "Cesanese del Piglio",
+   9
+  ],
+  [
+   "Alta Mesa",
+   9
+  ],
+  [
+   "Corbi\u00e8res-Boutenac",
+   9
+  ],
+  [
+   "Monterrei",
+   9
+  ],
+  [
+   "York Mountain",
+   9
+  ],
+  [
+   "Soave Superiore",
+   9
+  ],
+  [
+   "Canon-Fronsac",
+   9
+  ],
+  [
+   "Torgiano",
+   8
+  ],
+  [
+   "Montrachet",
+   8
+  ],
+  [
+   "Dogliani Superiore",
+   8
+  ],
+  [
+   "Bolgheri Sassicaia",
+   8
+  ],
+  [
+   "Vi de la Terra Illes Balears",
+   8
+  ],
+  [
+   "Oltrep\u00f2 Pavese",
+   8
+  ],
+  [
+   "Augusta",
+   8
+  ],
+  [
+   "Ladoix",
+   8
+  ],
+  [
+   "Mazis-Chambertin",
+   8
+  ],
+  [
+   "Coteaux du Languedoc Pic Saint Loup",
+   8
+  ],
+  [
+   "Salina",
+   8
+  ],
+  [
+   "Sangiovese di Romagna",
+   8
+  ],
+  [
+   "M\u00e2con",
+   8
+  ],
+  [
+   "Collines Rh\u00f4daniennes",
+   8
+  ],
+  [
+   "Dogliani",
+   8
+  ],
+  [
+   "Recioto di Soave Classico",
+   8
+  ],
+  [
+   "Tierra de Castilla",
+   8
+  ],
+  [
+   "Brachetto d'Acqui",
+   8
+  ],
+  [
+   "Muscat de Beaumes de Venise",
+   8
+  ],
+  [
+   "Colli Tortonesi",
+   8
+  ],
+  [
+   "Marca Trevigiana",
+   8
+  ],
+  [
+   "Teroldego Rotaliano",
+   8
+  ],
+  [
+   "San Francisco Bay-Livermore Valley",
+   8
+  ],
+  [
+   "Vin de Pays de la M\u00e9diterran\u00e9e",
+   8
+  ],
+  [
+   "River Junction",
+   8
+  ],
+  [
+   "Monica di Sardegna",
+   7
+  ],
+  [
+   "Piemonte",
+   7
+  ],
+  [
+   "Bardolino Classico",
+   7
+  ],
+  [
+   "Bizkaiko Txakolina",
+   7
+  ],
+  [
+   "M\u00e2con-Verze",
+   7
+  ],
+  [
+   "Lambrusco dell'Emilia",
+   7
+  ],
+  [
+   "Cheverny",
+   7
+  ],
+  [
+   "P\u00e9charmant",
+   7
+  ],
+  [
+   "Marsala",
+   7
+  ],
+  [
+   "Southeastern New England",
+   7
+  ],
+  [
+   "Albana di Romagna",
+   7
+  ],
+  [
+   "Tierra del Vi\u00f1os de Zamora",
+   7
+  ],
+  [
+   "Primitivo del Salento",
+   7
+  ],
+  [
+   "La Clape",
+   7
+  ],
+  [
+   "Lessini Durello",
+   7
+  ],
+  [
+   "Corse Porto Vecchio",
+   7
+  ],
+  [
+   "C\u00f4tes du Roussillon Villages Tautavel",
+   7
+  ],
+  [
+   "Mount Harlan",
+   7
+  ],
+  [
+   "Saddle Rock-Malibu",
+   7
+  ],
+  [
+   "Vougeot",
+   7
+  ],
+  [
+   "Cadillac",
+   7
+  ],
+  [
+   "C\u00f4tes de Castillon",
+   7
+  ],
+  [
+   "Tierra de Le\u00f3n",
+   7
+  ],
+  [
+   "Orange",
+   7
+  ],
+  [
+   "El Pomar District",
+   7
+  ],
+  [
+   "Costa d'Amalfi",
+   7
+  ],
+  [
+   "Saint-Romain",
+   7
+  ],
+  [
+   "Napa-Mendocino-Sonoma-Marin",
+   7
+  ],
+  [
+   "Banyuls",
+   7
+  ],
+  [
+   "Noto",
+   7
+  ],
+  [
+   "Cerasuolo d'Abruzzo",
+   7
+  ],
+  [
+   "Malvasia delle Lipari",
+   7
+  ],
+  [
+   "Alcamo",
+   7
+  ],
+  [
+   "M\u00e2con-Vinzelles",
+   7
+  ],
+  [
+   "Venezia",
+   7
+  ],
+  [
+   "C\u00f4te de Beaune-Villages",
+   7
+  ],
+  [
+   "Vin de Pays de Vaucluse",
+   7
+  ],
+  [
+   "Contessa Entellina",
+   7
+  ],
+  [
+   "Controguerra",
+   7
+  ],
+  [
+   "Nevada County",
+   6
+  ],
+  [
+   "Cole Ranch",
+   6
+  ],
+  [
+   "Valle d'Aosta",
+   6
+  ],
+  [
+   "Murgia",
+   6
+  ],
+  [
+   "New Jersey",
+   6
+  ],
+  [
+   "Boca",
+   6
+  ],
+  [
+   "Placer County",
+   6
+  ],
+  [
+   "Veneto Orientale",
+   6
+  ],
+  [
+   "Picpoul de Pinet",
+   6
+  ],
+  [
+   "Colli Martani",
+   6
+  ],
+  [
+   "Falerio",
+   6
+  ],
+  [
+   "Central Ranges",
+   6
+  ],
+  [
+   "M\u00e2con-Az\u00e9",
+   6
+  ],
+  [
+   "Moscadello di Montalcino",
+   6
+  ],
+  [
+   "Niagara Escarpment",
+   6
+  ],
+  [
+   "Central Victoria",
+   6
+  ],
+  [
+   "Vin Santo di Montepulciano",
+   6
+  ],
+  [
+   "Sainte-Foy Bordeaux",
+   6
+  ],
+  [
+   "Illinois",
+   6
+  ],
+  [
+   "Vin de Pays des C\u00f4tes Catalanes",
+   6
+  ],
+  [
+   "Riverina",
+   6
+  ],
+  [
+   "Wrattonbully",
+   6
+  ],
+  [
+   "Monteregio di Massa Marittima",
+   6
+  ],
+  [
+   "Muscat de Rivesaltes",
+   6
+  ],
+  [
+   "Vin de Table Francais",
+   6
+  ],
+  [
+   "Sierra de Salamanca",
+   6
+  ],
+  [
+   "Anjou Villages",
+   6
+  ],
+  [
+   "Pago de Ar\u00ednzano",
+   6
+  ],
+  [
+   "Valpolicella Ripasso Classico",
+   6
+  ],
+  [
+   "Vin de Pays du Lot",
+   6
+  ],
+  [
+   "C\u00f4tes-du-Ventoux",
+   6
+  ],
+  [
+   "Cr\u00e9mant de Bordeaux",
+   6
+  ],
+  [
+   "Chianti Montalbano",
+   6
+  ],
+  [
+   "Vittoria Frappato",
+   6
+  ],
+  [
+   "North Carolina",
+   6
+  ],
+  [
+   "M\u00e2con-Loch\u00e9",
+   6
+  ],
+  [
+   "Contea di Sclafani",
+   6
+  ],
+  [
+   "Ribera del Guadiana",
+   6
+  ],
+  [
+   "Abruzzo",
+   6
+  ],
+  [
+   "Sonoma County-Monterey County-Santa Barbara County",
+   6
+  ],
+  [
+   "Saint-P\u00e9ray",
+   6
+  ],
+  [
+   "Lot",
+   6
+  ],
+  [
+   "Gaillac Doux",
+   6
+  ],
+  [
+   "Saint-Georges-Saint-\u00c9milion",
+   5
+  ],
+  [
+   "Virginia's Eastern Shore",
+   5
+  ],
+  [
+   "Ros\u00e9 de Loire",
+   5
+  ],
+  [
+   "Lake Erie",
+   5
+  ],
+  [
+   "Bonnezeaux",
+   5
+  ],
+  [
+   "Eloro",
+   5
+  ],
+  [
+   "Roussette de Savoie",
+   5
+  ],
+  [
+   "Corton Les Renardes",
+   5
+  ],
+  [
+   "Costa Toscana",
+   5
+  ],
+  [
+   "Tarragona",
+   5
+  ],
+  [
+   "Vin Santo del Chianti Rufina",
+   5
+  ],
+  [
+   "Latrici\u00e8res-Chambertin",
+   5
+  ],
+  [
+   "Terrazze Retiche di Sondrio",
+   5
+  ],
+  [
+   "California Other",
+   5
+  ],
+  [
+   "Santa Clara County",
+   5
+  ],
+  [
+   "Atlantique",
+   5
+  ],
+  [
+   "C\u00f4tes de Duras",
+   5
+  ],
+  [
+   "Fitou",
+   5
+  ],
+  [
+   "Chapelle-Chambertin",
+   5
+  ],
+  [
+   "McLaren Vale-Adelaide Hills",
+   5
+  ],
+  [
+   "Vin de Pays Cit\u00e9 de Carcassonne",
+   5
+  ],
+  [
+   "Soave Colli Scaligeri",
+   5
+  ],
+  [
+   "Offida Passerina",
+   5
+  ],
+  [
+   "Roccamonfina",
+   5
+  ],
+  [
+   "Colli di Salerno",
+   5
+  ],
+  [
+   "Tuolumne County",
+   5
+  ],
+  [
+   "Yadkin Valley",
+   5
+  ],
+  [
+   "Sonoma County-Monterey County-Napa County",
+   5
+  ],
+  [
+   "Copertino",
+   5
+  ],
+  [
+   "San Lucas",
+   5
+  ],
+  [
+   "France",
+   5
+  ],
+  [
+   "Colline Teatine",
+   5
+  ],
+  [
+   "Clos Saint-Denis",
+   5
+  ],
+  [
+   "Colli di Conegliano",
+   5
+  ],
+  [
+   "Lambrusco Reggiano",
+   5
+  ],
+  [
+   "Galatina",
+   5
+  ],
+  [
+   "Rosazzo",
+   5
+  ],
+  [
+   "Sonoma",
+   5
+  ],
+  [
+   "Mount Barker",
+   5
+  ],
+  [
+   "Montepulciano d'Abruzzo Cerasuolo",
+   5
+  ],
+  [
+   "Lison-Pramaggiore",
+   5
+  ],
+  [
+   "Amarone della Valpolicella Valpantena",
+   5
+  ],
+  [
+   "Valtellina",
+   5
+  ],
+  [
+   "Piccadilly Valley",
+   5
+  ],
+  [
+   "Lake County-Mendocino County",
+   5
+  ],
+  [
+   "Vino de la Tierra del Bajo Arag\u00f3n",
+   5
+  ],
+  [
+   "Manzanilla-Sanl\u00facar de Barrameda",
+   5
+  ],
+  [
+   "Valli di Porto Pino",
+   5
+  ],
+  [
+   "Falanghina del Beneventano",
+   5
+  ],
+  [
+   "Roman\u00e9e-St.-Vivant",
+   5
+  ],
+  [
+   "M\u00e2con Chaintr\u00e9",
+   5
+  ],
+  [
+   "Sardinia",
+   5
+  ],
+  [
+   "Cir\u00f2 Classico",
+   5
+  ],
+  [
+   "Laudun",
+   5
+  ],
+  [
+   "Irroul\u00e9guy",
+   4
+  ],
+  [
+   "Chianti Montespertoli",
+   4
+  ],
+  [
+   "Maranges",
+   4
+  ],
+  [
+   "Nevada",
+   4
+  ],
+  [
+   "Adelaide Plains",
+   4
+  ],
+  [
+   "Cr\u00e9mant de Limoux",
+   4
+  ],
+  [
+   "Vin Santo del Chianti",
+   4
+  ],
+  [
+   "C\u00f4tes de Nuits Villages",
+   4
+  ],
+  [
+   "Menfi",
+   4
+  ],
+  [
+   "Alghero",
+   4
+  ],
+  [
+   "King Valley",
+   4
+  ],
+  [
+   "Bordeaux C\u00f4tes de Francs ",
+   4
+  ],
+  [
+   "Catalonia",
+   4
+  ],
+  [
+   "Lago di Corbara",
+   4
+  ],
+  [
+   "Macon-Bussi\u00e8res",
+   4
+  ],
+  [
+   "Malibu-Newton Canyon",
+   4
+  ],
+  [
+   "Coteaux du Layon Chaume",
+   4
+  ],
+  [
+   "Chelan County",
+   4
+  ],
+  [
+   "Curtefranca",
+   4
+  ],
+  [
+   "Beaujolais-Leynes",
+   4
+  ],
+  [
+   "Puget Sound",
+   4
+  ],
+  [
+   "Mudgee",
+   4
+  ],
+  [
+   "Bourgogne Epineuil",
+   4
+  ],
+  [
+   "Malibu Coast",
+   4
+  ],
+  [
+   "Pavia",
+   4
+  ],
+  [
+   "Bonnes-Mares",
+   4
+  ],
+  [
+   "Cilento",
+   4
+  ],
+  [
+   "Iowa",
+   4
+  ],
+  [
+   "Lugana Superiore",
+   4
+  ],
+  [
+   "Monterey-Santa Barbara",
+   4
+  ],
+  [
+   "Rubicone",
+   4
+  ],
+  [
+   "M\u00e2con-Uchizy",
+   4
+  ],
+  [
+   "Colli di Luni",
+   4
+  ],
+  [
+   "Barco Reale di Carmignano",
+   4
+  ],
+  [
+   "Sonoma County-Monterey County",
+   4
+  ],
+  [
+   "Vin de Pays du Gard",
+   4
+  ],
+  [
+   "Garda Classico",
+   4
+  ],
+  [
+   "Cortese di Gavi",
+   4
+  ],
+  [
+   "Colli Bolognesi",
+   4
+  ],
+  [
+   "Ard\u00e8che",
+   4
+  ],
+  [
+   "C\u00e9rons",
+   4
+  ],
+  [
+   "Gioia del Colle",
+   4
+  ],
+  [
+   "Blanquette de Limoux",
+   4
+  ],
+  [
+   "C\u00f4tes du Luberon",
+   4
+  ],
+  [
+   "Recioto della Valpolicella",
+   4
+  ],
+  [
+   "Muscadet S\u00e8vre et Maine Clisson",
+   4
+  ],
+  [
+   "Aude Hauterive",
+   4
+  ],
+  [
+   "Meursault-Blagny",
+   4
+  ],
+  [
+   "San Carlos",
+   4
+  ],
+  [
+   "M\u00e2con-Davay\u00e9",
+   4
+  ],
+  [
+   "Ischia",
+   4
+  ],
+  [
+   "Month\u00e9lie",
+   4
+  ],
+  [
+   "Clos de Lambrays",
+   4
+  ],
+  [
+   "Lanzarote",
+   4
+  ],
+  [
+   "Tuscany",
+   4
+  ],
+  [
+   "Similkameen Valley",
+   4
+  ],
+  [
+   "Donnici",
+   4
+  ],
+  [
+   "Bergerac Ros\u00e9",
+   4
+  ],
+  [
+   "Vino de la Tierra de C\u00e1diz",
+   4
+  ],
+  [
+   "Central Valley",
+   4
+  ],
+  [
+   "Vino de la Tierra de Castell\u00f3",
+   4
+  ],
+  [
+   "C\u00f4te Roannaise",
+   4
+  ],
+  [
+   "C\u00f4tes de Thau",
+   4
+  ],
+  [
+   "Antelope Valley of the California High Desert",
+   4
+  ],
+  [
+   "Napa County-Sonoma County-Lake County",
+   4
+  ],
+  [
+   "Alta Valle della Greve",
+   4
+  ],
+  [
+   "La Roman\u00e9e",
+   4
+  ],
+  [
+   "Gambellara Classico",
+   3
+  ],
+  [
+   "Gard",
+   3
+  ],
+  [
+   "Vin de Pays des C\u00e9vennes",
+   3
+  ],
+  [
+   "Gavi di Gavi",
+   3
+  ],
+  [
+   "Vino de la Tierra Altiplano de Sierra Nevada",
+   3
+  ],
+  [
+   "Santa Barbara-Monterey",
+   3
+  ],
+  [
+   "Saint-Croix-du-Mont",
+   3
+  ],
+  [
+   "Colli Euganei",
+   3
+  ],
+  [
+   "M\u00e2con-Vergisson",
+   3
+  ],
+  [
+   "Clairette de Die M\u00e9thode Dioise Ancestrale",
+   3
+  ],
+  [
+   "Solano County Green Valley",
+   3
+  ],
+  [
+   "Penisola Sorrentina",
+   3
+  ],
+  [
+   "Bourgogne Gamay",
+   3
+  ],
+  [
+   "Lenswood",
+   3
+  ],
+  [
+   "St. David's Bench",
+   3
+  ],
+  [
+   "Riviera Ligure di Ponente",
+   3
+  ],
+  [
+   "Rasteau",
+   3
+  ],
+  [
+   "Ribera del J\u00facar",
+   3
+  ],
+  [
+   "Kelsey Bench-Lake County",
+   3
+  ],
+  [
+   "Biferno Rosso",
+   3
+  ],
+  [
+   "Sonoma County-Lake County",
+   3
+  ],
+  [
+   "Colli Perugini",
+   3
+  ],
+  [
+   "Madrid",
+   3
+  ],
+  [
+   "Vino de Mesa",
+   3
+  ],
+  [
+   "Vin de Pays de L'Aude",
+   3
+  ],
+  [
+   "Buenos Aires",
+   3
+  ],
+  [
+   "Vermont",
+   3
+  ],
+  [
+   "Ventura County",
+   3
+  ],
+  [
+   "Chianti Colli Aretini",
+   3
+  ],
+  [
+   "Mendocino-Lake",
+   3
+  ],
+  [
+   "Irancy",
+   3
+  ],
+  [
+   "Vin de Pays des Portes de M\u00e9diterran\u00e9e",
+   3
+  ],
+  [
+   "Columbia Valley-Walla Walla Valley",
+   3
+  ],
+  [
+   "Gutturnio Colli Piacentini",
+   3
+  ],
+  [
+   "M\u00e2con-Charnay",
+   3
+  ],
+  [
+   "Coteaux du Layon Saint Aubin",
+   3
+  ],
+  [
+   "Dolcetto di Diano d'Alba",
+   3
+  ],
+  [
+   "Nuragus di Cagliari",
+   3
+  ],
+  [
+   "Sonoma County-San Joaquin County",
+   3
+  ],
+  [
+   "Western Connecticut Highlands",
+   3
+  ],
+  [
+   "Vin de Pays des Alpilles",
+   3
+  ],
+  [
+   "Grampians",
+   3
+  ],
+  [
+   "Cour-Cheverny",
+   3
+  ],
+  [
+   "Monterey-Santa Barbara-Sonoma",
+   3
+  ],
+  [
+   "Oregon Other",
+   3
+  ],
+  [
+   "Montecarlo",
+   3
+  ],
+  [
+   "Moscato di Noto",
+   3
+  ],
+  [
+   "Falerio dei Colli Ascolani",
+   3
+  ],
+  [
+   "M\u00e2con Solutr\u00e9",
+   3
+  ],
+  [
+   "Muscadet Coteaux de la Loire",
+   3
+  ],
+  [
+   "Carema",
+   3
+  ],
+  [
+   "Prosecco di Valdobbiadene Superiore",
+   3
+  ],
+  [
+   "Clos de Tart",
+   3
+  ],
+  [
+   "Short Hills Bench",
+   3
+  ],
+  [
+   "Zonda Valley",
+   3
+  ],
+  [
+   "P\u00e9rigord",
+   3
+  ],
+  [
+   "Bourgogne C\u00f4tes d\u2019Auxerre",
+   3
+  ],
+  [
+   "Nard\u00f2",
+   3
+  ],
+  [
+   "Hautes Cotes de Beaune",
+   3
+  ],
+  [
+   "Garda",
+   3
+  ],
+  [
+   "Monreale",
+   3
+  ],
+  [
+   "Torgiano Rosso Riserva",
+   3
+  ],
+  [
+   "Alpilles",
+   3
+  ],
+  [
+   "Strathbogie Ranges",
+   3
+  ],
+  [
+   "Corton-Bressandes",
+   3
+  ],
+  [
+   "Gundagai",
+   3
+  ],
+  [
+   "Cabernet d'Anjou",
+   3
+  ],
+  [
+   "Valpolicella Ripasso Valpantena Superiore",
+   3
+  ],
+  [
+   "Coteaux du Layon Beaulieu",
+   3
+  ],
+  [
+   "Napa-Mendocino-Sonoma",
+   3
+  ],
+  [
+   "Capay Valley",
+   3
+  ],
+  [
+   "Fleurieu Peninsula",
+   3
+  ],
+  [
+   "St.-Romain",
+   2
+  ],
+  [
+   "San Marino",
+   2
+  ],
+  [
+   "Bianco di Custoza",
+   2
+  ],
+  [
+   "Delia Nivolelli",
+   2
+  ],
+  [
+   "Outer Coastal Plain",
+   2
+  ],
+  [
+   "M\u00e2con-P\u00e9ronne",
+   2
+  ],
+  [
+   "Sebino",
+   2
+  ],
+  [
+   "Big Valley District-Lake County",
+   2
+  ],
+  [
+   "Sierra Pelona Valley",
+   2
+  ],
+  [
+   "Asprinio di Aversa",
+   2
+  ],
+  [
+   "Sonoita",
+   2
+  ],
+  [
+   "Palette",
+   2
+  ],
+  [
+   "Napa-Carneros",
+   2
+  ],
+  [
+   "Colli di Faenza",
+   2
+  ],
+  [
+   "Dolcetto d'Acqui",
+   2
+  ],
+  [
+   "La Grande Rue",
+   2
+  ],
+  [
+   "Maury",
+   2
+  ],
+  [
+   "Corton-Rognet",
+   2
+  ],
+  [
+   "Monti Lessini",
+   2
+  ],
+  [
+   "Napa County-Sonoma County-San Joaquin County",
+   2
+  ],
+  [
+   "Terre di Franciacorta",
+   2
+  ],
+  [
+   "Epomeo",
+   2
+  ],
+  [
+   "Galluccio",
+   2
+  ],
+  [
+   "Vin de Pays des Maures",
+   2
+  ],
+  [
+   "C\u00e9vennes",
+   2
+  ],
+  [
+   "British Columbia",
+   2
+  ],
+  [
+   "Vin de Pays du Val de Cesse",
+   2
+  ],
+  [
+   "Montenetto di Brescia",
+   2
+  ],
+  [
+   "Lombardy",
+   2
+  ],
+  [
+   "Musigny",
+   2
+  ],
+  [
+   "C\u00f4tes de Thongue",
+   2
+  ],
+  [
+   "Monterey-Santa Cruz",
+   2
+  ],
+  [
+   "Touraine Amboise",
+   2
+  ],
+  [
+   "Savenni\u00e8res-Roche-Aux-Moines",
+   2
+  ],
+  [
+   "Brulhois",
+   2
+  ],
+  [
+   "Valt\u00e8nesi",
+   2
+  ],
+  [
+   "Corton-Pougets",
+   2
+  ],
+  [
+   "Southern Fleurieu",
+   2
+  ],
+  [
+   "Pouilly-sur-Loire",
+   2
+  ],
+  [
+   "Custoza",
+   2
+  ],
+  [
+   "Vin de Pays de l'Ile de Beaut\u00e9",
+   2
+  ],
+  [
+   "Provincia di Pavia",
+   2
+  ],
+  [
+   "Emporad\u00e0-Costa Brava",
+   2
+  ],
+  [
+   "Fara",
+   2
+  ],
+  [
+   "Passito di Noto",
+   2
+  ],
+  [
+   "Columbia Valley",
+   2
+  ],
+  [
+   "Yamhill County",
+   2
+  ],
+  [
+   "Mendocino-Lake County-Napa",
+   2
+  ],
+  [
+   "Beechworth",
+   2
+  ],
+  [
+   "Chignin",
+   2
+  ],
+  [
+   "Swan Hill",
+   2
+  ],
+  [
+   "Erbaluce di Caluso",
+   2
+  ],
+  [
+   "Mamertino",
+   2
+  ],
+  [
+   "Civitella d'Agliano",
+   2
+  ],
+  [
+   "Pedernal Valley",
+   2
+  ],
+  [
+   "Siracusa",
+   2
+  ],
+  [
+   "Vin de Pays du Jardin de la France",
+   2
+  ],
+  [
+   "Castilla La Mancha",
+   2
+  ],
+  [
+   "Ramona Valley",
+   2
+  ],
+  [
+   "Colli Etruria Centrale",
+   2
+  ],
+  [
+   "Vin Doux Naturel Rasteau",
+   2
+  ],
+  [
+   "Aglianico del Beneventano",
+   2
+  ],
+  [
+   "Barbera di Piemonte",
+   2
+  ],
+  [
+   "Ch\u00e2teaumeillant",
+   2
+  ],
+  [
+   "Napa",
+   2
+  ],
+  [
+   "Cabardes",
+   2
+  ],
+  [
+   "Dolcetto di Dogliani Superiore",
+   2
+  ],
+  [
+   "M\u00e2con-Priss\u00e9",
+   2
+  ],
+  [
+   "Bienvenues B\u00e2tard-Montrachet",
+   2
+  ],
+  [
+   "Ramandolo",
+   2
+  ],
+  [
+   "Western Plains",
+   2
+  ],
+  [
+   "Kangaroo Island",
+   2
+  ],
+  [
+   "Casorzo",
+   2
+  ],
+  [
+   "Dolcetto d'Asti",
+   2
+  ],
+  [
+   "Sant' Agata dei Goti",
+   2
+  ],
+  [
+   "Mentrida",
+   2
+  ],
+  [
+   "B\u00e9arn",
+   2
+  ],
+  [
+   "Lime Kiln Valley",
+   2
+  ],
+  [
+   "Vino da Mesa de Toledo",
+   2
+  ],
+  [
+   "Amador-Napa",
+   2
+  ],
+  [
+   "Hilltops",
+   2
+  ],
+  [
+   "Polk County",
+   2
+  ],
+  [
+   "Monterey County-Napa County-Sonoma County",
+   2
+  ],
+  [
+   "Moscato di Trani",
+   2
+  ],
+  [
+   "Lake County-Sonoma County",
+   2
+  ],
+  [
+   "Valpolicella Ripasso Valpantena",
+   2
+  ],
+  [
+   "Circeo",
+   2
+  ],
+  [
+   "Bardolino Classico Superiore",
+   2
+  ],
+  [
+   "San Rafael",
+   2
+  ],
+  [
+   "Vesuvio",
+   2
+  ],
+  [
+   "Tumbarumba",
+   2
+  ],
+  [
+   "Alpine Valleys",
+   2
+  ],
+  [
+   "Chianti Colli Pisani",
+   2
+  ],
+  [
+   "Vin de Pays de L'Herault",
+   2
+  ],
+  [
+   "Montello e Colli Asolani",
+   2
+  ],
+  [
+   "Charentais",
+   2
+  ],
+  [
+   "Montefalco",
+   2
+  ],
+  [
+   "Santa Cruz County",
+   2
+  ],
+  [
+   "San Gimignano",
+   2
+  ],
+  [
+   "Vino de Calidad de Valtiendas",
+   2
+  ],
+  [
+   "San Diego County",
+   2
+  ],
+  [
+   "Criots-B\u00e2tard-Montrachet",
+   1
+  ],
+  [
+   "Goulburn Valley",
+   1
+  ],
+  [
+   "Geographe",
+   1
+  ],
+  [
+   "Maury Sec",
+   1
+  ],
+  [
+   "C\u00f4tes du Roussillon Villages Caramany",
+   1
+  ],
+  [
+   "Custoza Superiore",
+   1
+  ],
+  [
+   "M\u00e2con-Pierreclos",
+   1
+  ],
+  [
+   "Southern Flinders Ranges",
+   1
+  ],
+  [
+   "Vino de la Tierra Contraviesa Alpujarra",
+   1
+  ],
+  [
+   "Sonoma-Napa-Mendocino",
+   1
+  ],
+  [
+   "Loazzolo",
+   1
+  ],
+  [
+   "Napa-Sonoma-Marin",
+   1
+  ],
+  [
+   "Chignin-Bergeron",
+   1
+  ],
+  [
+   "C\u00f4tes du Roussillon Les Aspres",
+   1
+  ],
+  [
+   "Martina",
+   1
+  ],
+  [
+   "California-Oregon",
+   1
+  ],
+  [
+   "Coteaux d'Ancenis",
+   1
+  ],
+  [
+   "Cabernet de Saumur",
+   1
+  ],
+  [
+   "Montlouis-sur-Loire",
+   1
+  ],
+  [
+   "Tarantino",
+   1
+  ],
+  [
+   "Dolcetto di Monferrato",
+   1
+  ],
+  [
+   "Bullas",
+   1
+  ],
+  [
+   "McDowell Valley",
+   1
+  ],
+  [
+   "Muscat de Saint-Jean de Minervois",
+   1
+  ],
+  [
+   "Sonoma-Mendocino",
+   1
+  ],
+  [
+   "Corton Gr\u00e8ves",
+   1
+  ],
+  [
+   "Coteaux de Verdon",
+   1
+  ],
+  [
+   "Valpolicella Valpantena Superiore",
+   1
+  ],
+  [
+   "Aleatico dell'Elba",
+   1
+  ],
+  [
+   "Vin P\u00e9tillant",
+   1
+  ],
+  [
+   "Ohio",
+   1
+  ],
+  [
+   "Saussignac",
+   1
+  ],
+  [
+   "Paso Robles Highlands District",
+   1
+  ],
+  [
+   "Benaco Bresciano",
+   1
+  ],
+  [
+   "C\u00f4tes du Frontonnais",
+   1
+  ],
+  [
+   "Ch\u00e2teau-Chalon",
+   1
+  ],
+  [
+   "M\u00e2con-Mancey",
+   1
+  ],
+  [
+   "Assisi",
+   1
+  ],
+  [
+   "Jujuy",
+   1
+  ],
+  [
+   "Kentucky",
+   1
+  ],
+  [
+   "Prince Edward County",
+   1
+  ],
+  [
+   "Clairette de Bellegarde",
+   1
+  ],
+  [
+   "Colline Lucchesi",
+   1
+  ],
+  [
+   "Lambrusco Salamino di Santa Croce",
+   1
+  ],
+  [
+   "Currency Creek",
+   1
+  ],
+  [
+   "Toledo",
+   1
+  ],
+  [
+   "Monterey-San Luis Obispo-Santa Barbara",
+   1
+  ],
+  [
+   "Diano d'Alba",
+   1
+  ],
+  [
+   "Landes",
+   1
+  ],
+  [
+   "Breganze",
+   1
+  ],
+  [
+   "Tehama County",
+   1
+  ],
+  [
+   "Murray-Darling",
+   1
+  ],
+  [
+   "Pays de Loire",
+   1
+  ],
+  [
+   "Valpolicella Valpantena",
+   1
+  ],
+  [
+   "Napa County-Lake County",
+   1
+  ],
+  [
+   "Vin de Pays de l'Atlantique",
+   1
+  ],
+  [
+   "C\u00f4tes de Forez",
+   1
+  ],
+  [
+   "Vin de Pays de la Haute Vall\u00e9e du Gassac",
+   1
+  ],
+  [
+   "Lamezia",
+   1
+  ],
+  [
+   "Trentino Superiore",
+   1
+  ],
+  [
+   "Grave del Friuli",
+   1
+  ],
+  [
+   "Vin Santo di Carmignano",
+   1
+  ],
+  [
+   "Vino de la Tierra de Zamora",
+   1
+  ],
+  [
+   "Napa-Monterey-Mendocino",
+   1
+  ],
+  [
+   "Brindisi",
+   1
+  ],
+  [
+   "Burgundy",
+   1
+  ],
+  [
+   "Rosso di Cerignola",
+   1
+  ],
+  [
+   "McLaren Vale-Langhorne Creek",
+   1
+  ],
+  [
+   "Monferrato Bianco",
+   1
+  ],
+  [
+   "Arribes del Duero",
+   1
+  ],
+  [
+   "Finca \u00c9lez",
+   1
+  ],
+  [
+   "Moulis",
+   1
+  ],
+  [
+   "Moscato di Pantelleria",
+   1
+  ],
+  [
+   "Barossa-Langhorne Creek",
+   1
+  ],
+  [
+   "Currency Creek-McLaren Vale",
+   1
+  ],
+  [
+   "Coteaux du Lyonnais",
+   1
+  ],
+  [
+   "Gippsland",
+   1
+  ],
+  [
+   "Colline Teramane",
+   1
+  ],
+  [
+   "Vino de la Tierra Ribera del G\u00e1llego-Cinco Villas",
+   1
+  ],
+  [
+   "Napa Valley-Paso Robles",
+   1
+  ],
+  [
+   "Clare Valley-Coonawarra",
+   1
+  ],
+  [
+   "Falanghina del Molise",
+   1
+  ],
+  [
+   "Medrano",
+   1
+  ],
+  [
+   "Vin de Pays des Coteaux de Bessilles",
+   1
+  ],
+  [
+   "Mount Barker & Margaret River",
+   1
+  ],
+  [
+   "Mazoyeres-Chambertin",
+   1
+  ],
+  [
+   "Altos de Mendoza",
+   1
+  ],
+  [
+   "Coteaux du Languedoc-P\u00e9zenas",
+   1
+  ],
+  [
+   "Vino de Calidad de Tierras de Le\u00f3n",
+   1
+  ],
+  [
+   "McLaren Vale-Padthaway",
+   1
+  ],
+  [
+   "Mendocino-Amador",
+   1
+  ],
+  [
+   "Vall\u00e9e du Paradis",
+   1
+  ],
+  [
+   "Sovana",
+   1
+  ],
+  [
+   "Dolcetto d'Alba Superiore",
+   1
+  ],
+  [
+   "Henty",
+   1
+  ],
+  [
+   "C\u00f4tes de Saint-Mont",
+   1
+  ],
+  [
+   "Saint-Chinian-Roquebrun",
+   1
+  ],
+  [
+   "San Martino della Battaglia",
+   1
+  ],
+  [
+   "Geelong",
+   1
+  ],
+  [
+   "Corton Perri\u00e8res",
+   1
+  ],
+  [
+   "Primitivo del Tarantino",
+   1
+  ],
+  [
+   "Napa-Amador",
+   1
+  ],
+  [
+   "Nasco di Cagliari",
+   1
+  ],
+  [
+   "Sonoma-Santa Barbara-Mendocino",
+   1
+  ],
+  [
+   "Vin de Pays de France",
+   1
+  ],
+  [
+   "Massachusetts",
+   1
+  ],
+  [
+   "Canada",
+   1
+  ],
+  [
+   "Frascati",
+   1
+  ],
+  [
+   "Southern Highlands",
+   1
+  ],
+  [
+   "Aglianico d'Irpinia",
+   1
+  ],
+  [
+   "Lake-Sonoma-Napa",
+   1
+  ],
+  [
+   "Vin de Pays de Montferrand",
+   1
+  ],
+  [
+   "Isle St. George",
+   1
+  ],
+  [
+   "Clairette de Die",
+   1
+  ],
+  [
+   "Clare Valley-Eden Valley",
+   1
+  ],
+  [
+   "Gutturnio Classico Superiore",
+   1
+  ],
+  [
+   "Strevi",
+   1
+  ],
+  [
+   "Australia-New Zealand",
+   1
+  ],
+  [
+   "Riverland",
+   1
+  ],
+  [
+   "Sardon de Duero",
+   1
+  ],
+  [
+   "Texoma",
+   1
+  ],
+  [
+   "Cacc\u2019e Mmitte di Lucera",
+   1
+  ],
+  [
+   "Sonoma-Napa-Monterey",
+   1
+  ],
+  [
+   "Collioure",
+   1
+  ],
+  [
+   "Saint Guilhem le D\u00e9sert",
+   1
+  ],
+  [
+   "Catalanesca del Monte Somma",
+   1
+  ],
+  [
+   "Hawaii",
+   1
+  ],
+  [
+   "Bourgogne V\u00e9zelay",
+   1
+  ],
+  [
+   "Mitterberg",
+   1
+  ],
+  [
+   "Rivesaltes Ros\u00e9",
+   1
+  ],
+  [
+   "Offida Rosso",
+   1
+  ],
+  [
+   "C\u00f4tes de Montravel",
+   1
+  ],
+  [
+   "Todi",
+   1
+  ],
+  [
+   "Colli del Limbara",
+   1
+  ],
+  [
+   "Catamarca",
+   1
+  ],
+  [
+   "Langhorne Creek-Limestone Coast",
+   1
+  ],
+  [
+   "Coda di Volpe d'Irpinia",
+   1
+  ],
+  [
+   "Squinzano",
+   1
+  ],
+  [
+   "Barossa-Adelaide Hills",
+   1
+  ],
+  [
+   "Monterey County-Napa County",
+   1
+  ],
+  [
+   "Est! Est!! Est!!! di Montefiascone",
+   1
+  ],
+  [
+   "Terrasses du Larzac",
+   1
+  ],
+  [
+   "Apremont",
+   1
+  ],
+  [
+   "Sonoma-Napa-Lake",
+   1
+  ],
+  [
+   "Sonoma County-Santa Barbara County",
+   1
+  ],
+  [
+   "Del Veneto",
+   1
+  ],
+  [
+   "Bardolino Superiore",
+   1
+  ],
+  [
+   "Paestum",
+   1
+  ]
+ ],
+ "variety": [
+  [
+   "Pinot Noir",
+   13272
+  ],
+  [
+   "Chardonnay",
+   11753
+  ],
+  [
+   "Cabernet Sauvignon",
+   9472
+  ],
+  [
+   "Red Blend",
+   8946
+  ],
+  [
+   "Bordeaux-style Red Blend",
+   6915
+  ],
+  [
+   "Riesling",
+   5189
+  ],
+  [
+   "Sauvignon Blanc",
+   4967
+  ],
+  [
+   "Syrah",
+   4142
+  ],
+  [
+   "Ros\u00e9",
+   3564
+  ],
+  [
+   "Merlot",
+   3102
+  ],
+  [
+   "Nebbiolo",
+   2804
+  ],
+  [
+   "Zinfandel",
+   2714
+  ],
+  [
+   "Sangiovese",
+   2707
+  ],
+  [
+   "Malbec",
+   2652
+  ],
+  [
+   "Portuguese Red",
+   2466
+  ],
+  [
+   "White Blend",
+   2360
+  ],
+  [
+   "Sparkling Blend",
+   2153
+  ],
+  [
+   "Tempranillo",
+   1810
+  ],
+  [
+   "Rh\u00f4ne-style Red Blend",
+   1471
+  ],
+  [
+   "Pinot Gris",
+   1455
+  ],
+  [
+   "Champagne Blend",
+   1396
+  ],
+  [
+   "Cabernet Franc",
+   1353
+  ],
+  [
+   "Gr\u00fcner Veltliner",
+   1345
+  ],
+  [
+   "Portuguese White",
+   1159
+  ],
+  [
+   "Bordeaux-style White Blend",
+   1066
+  ],
+  [
+   "Pinot Grigio",
+   1052
+  ],
+  [
+   "Gamay",
+   1025
+  ],
+  [
+   "Gew\u00fcrztraminer",
+   1012
+  ],
+  [
+   "Viognier",
+   996
+  ],
+  [
+   "Shiraz",
+   836
+  ],
+  [
+   "Petite Sirah",
+   770
+  ],
+  [
+   "Sangiovese Grosso",
+   751
+  ],
+  [
+   "Barbera",
+   721
+  ],
+  [
+   "Glera",
+   709
+  ],
+  [
+   "Port",
+   668
+  ],
+  [
+   "Grenache",
+   651
+  ],
+  [
+   "Corvina, Rondinella, Molinara",
+   619
+  ],
+  [
+   "Chenin Blanc",
+   591
+  ],
+  [
+   "Tempranillo Blend",
+   588
+  ],
+  [
+   "Carmen\u00e8re",
+   575
+  ],
+  [
+   "Albari\u00f1o",
+   477
+  ],
+  [
+   "Pinot Blanc",
+   442
+  ],
+  [
+   "Rh\u00f4ne-style White Blend",
+   425
+  ],
+  [
+   "Nero d'Avola",
+   365
+  ],
+  [
+   "Aglianico",
+   359
+  ],
+  [
+   "Moscato",
+   358
+  ],
+  [
+   "Garnacha",
+   326
+  ],
+  [
+   "Sauvignon",
+   316
+  ],
+  [
+   "Verdejo",
+   294
+  ],
+  [
+   "Melon",
+   280
+  ],
+  [
+   "Garganega",
+   270
+  ],
+  [
+   "Petit Verdot",
+   269
+  ],
+  [
+   "Meritage",
+   260
+  ],
+  [
+   "Torront\u00e9s",
+   250
+  ],
+  [
+   "Prosecco",
+   236
+  ],
+  [
+   "Vermentino",
+   232
+  ],
+  [
+   "Blaufr\u00e4nkisch",
+   232
+  ],
+  [
+   "Mourv\u00e8dre",
+   229
+  ],
+  [
+   "Primitivo",
+   222
+  ],
+  [
+   "Montepulciano",
+   215
+  ],
+  [
+   "Zweigelt",
+   209
+  ],
+  [
+   "Touriga Nacional",
+   200
+  ],
+  [
+   "G-S-M",
+   181
+  ],
+  [
+   "Pinot Nero",
+   181
+  ],
+  [
+   "Dolcetto",
+   180
+  ],
+  [
+   "Menc\u00eda",
+   178
+  ],
+  [
+   "Tannat",
+   178
+  ],
+  [
+   "Roussanne",
+   168
+  ],
+  [
+   "Tinta de Toro",
+   166
+  ],
+  [
+   "Verdicchio",
+   164
+  ],
+  [
+   "Turbiana",
+   157
+  ],
+  [
+   "Pinot Bianco",
+   154
+  ],
+  [
+   "Fiano",
+   151
+  ],
+  [
+   "Monastrell",
+   147
+  ],
+  [
+   "Vernaccia",
+   138
+  ],
+  [
+   "Grillo",
+   137
+  ],
+  [
+   "Pinotage",
+   137
+  ],
+  [
+   "Alvarinho",
+   137
+  ],
+  [
+   "S\u00e9millon",
+   135
+  ],
+  [
+   "Muscat",
+   132
+  ],
+  [
+   "Grenache Blanc",
+   131
+  ],
+  [
+   "Friulano",
+   122
+  ],
+  [
+   "Greco",
+   121
+  ],
+  [
+   "Nerello Mascalese",
+   117
+  ],
+  [
+   "Cabernet Sauvignon-Merlot",
+   117
+  ],
+  [
+   "Viura",
+   107
+  ],
+  [
+   "Bonarda",
+   105
+  ],
+  [
+   "Sagrantino",
+   104
+  ],
+  [
+   "Rosato",
+   103
+  ],
+  [
+   "Cabernet Sauvignon-Syrah",
+   102
+  ],
+  [
+   "Sherry",
+   100
+  ],
+  [
+   "Tinto Fino",
+   100
+  ],
+  [
+   "Malbec-Merlot",
+   96
+  ],
+  [
+   "St. Laurent",
+   92
+  ],
+  [
+   "Falanghina",
+   89
+  ],
+  [
+   "Ribolla Gialla",
+   87
+  ],
+  [
+   "Arneis",
+   86
+  ],
+  [
+   "Godello",
+   81
+  ],
+  [
+   "Negroamaro",
+   80
+  ],
+  [
+   "Lagrein",
+   80
+  ],
+  [
+   "Austrian white blend",
+   80
+  ],
+  [
+   "Cabernet Blend",
+   80
+  ],
+  [
+   "Rosado",
+   77
+  ],
+  [
+   "Arinto",
+   77
+  ],
+  [
+   "Carignan",
+   77
+  ],
+  [
+   "Cortese",
+   73
+  ],
+  [
+   "Sp\u00e4tburgunder",
+   72
+  ],
+  [
+   "Fum\u00e9 Blanc",
+   70
+  ],
+  [
+   "Sauvignon Blanc-Semillon",
+   68
+  ],
+  [
+   "Verdelho",
+   65
+  ],
+  [
+   "Marsanne",
+   65
+  ],
+  [
+   "Portuguese Sparkling",
+   65
+  ],
+  [
+   "Provence red blend",
+   64
+  ],
+  [
+   "Agiorgitiko",
+   63
+  ],
+  [
+   "Austrian Red Blend",
+   62
+  ],
+  [
+   "Syrah-Grenache",
+   58
+  ],
+  [
+   "Malbec-Cabernet Sauvignon",
+   58
+  ],
+  [
+   "Petit Manseng",
+   57
+  ],
+  [
+   "Moscatel",
+   57
+  ],
+  [
+   "Furmint",
+   55
+  ],
+  [
+   "Vidal Blanc",
+   55
+  ],
+  [
+   "Pecorino",
+   54
+  ],
+  [
+   "Sylvaner",
+   53
+  ],
+  [
+   "Semillon-Sauvignon Blanc",
+   53
+  ],
+  [
+   "Tempranillo-Cabernet Sauvignon",
+   53
+  ],
+  [
+   "Alsace white blend",
+   51
+  ],
+  [
+   "Trebbiano",
+   51
+  ],
+  [
+   "Gros and Petit Manseng",
+   51
+  ],
+  [
+   "Grenache-Syrah",
+   50
+  ],
+  [
+   "Lambrusco",
+   50
+  ],
+  [
+   "Alicante Bouschet",
+   50
+  ],
+  [
+   "Weissburgunder",
+   47
+  ],
+  [
+   "M\u00fcller-Thurgau",
+   46
+  ],
+  [
+   "Pinot Meunier",
+   45
+  ],
+  [
+   "Malvasia",
+   44
+  ],
+  [
+   "Graciano",
+   43
+  ],
+  [
+   "Prugnolo Gentile",
+   43
+  ],
+  [
+   "Assyrtico",
+   43
+  ],
+  [
+   "Cabernet Sauvignon-Carmen\u00e8re",
+   43
+  ],
+  [
+   "Pedro Xim\u00e9nez",
+   42
+  ],
+  [
+   "Cinsault",
+   41
+  ],
+  [
+   "Frappato",
+   39
+  ],
+  [
+   "Shiraz-Cabernet Sauvignon",
+   39
+  ],
+  [
+   "Silvaner",
+   39
+  ],
+  [
+   "Traminer",
+   39
+  ],
+  [
+   "Encruzado",
+   39
+  ],
+  [
+   "Shiraz-Viognier",
+   38
+  ],
+  [
+   "Garnacha Blanca",
+   38
+  ],
+  [
+   "Carricante",
+   37
+  ],
+  [
+   "Gelber Muskateller",
+   37
+  ],
+  [
+   "Syrah-Cabernet Sauvignon",
+   37
+  ],
+  [
+   "Saperavi",
+   37
+  ],
+  [
+   "Fern\u00e3o Pires",
+   36
+  ],
+  [
+   "Muscat Canelli",
+   36
+  ],
+  [
+   "Lemberger",
+   36
+  ],
+  [
+   "Provence white blend",
+   36
+  ],
+  [
+   "Moschofilero",
+   36
+  ],
+  [
+   "Chardonnay-Viognier",
+   35
+  ],
+  [
+   "Merlot-Cabernet Sauvignon",
+   35
+  ],
+  [
+   "Castel\u00e3o",
+   34
+  ],
+  [
+   "Chenin Blanc-Chardonnay",
+   33
+  ],
+  [
+   "Insolia",
+   33
+  ],
+  [
+   "Claret",
+   33
+  ],
+  [
+   "Xinomavro",
+   33
+  ],
+  [
+   "Rkatsiteli",
+   33
+  ],
+  [
+   "Teroldego",
+   32
+  ],
+  [
+   "Tempranillo-Garnacha",
+   32
+  ],
+  [
+   "Tannat-Cabernet",
+   31
+  ],
+  [
+   "Cannonau",
+   31
+  ],
+  [
+   "Zibibbo",
+   31
+  ],
+  [
+   "Inzolia",
+   30
+  ],
+  [
+   "Petite Verdot",
+   30
+  ],
+  [
+   "Aligot\u00e9",
+   30
+  ],
+  [
+   "Carignane",
+   30
+  ],
+  [
+   "Catarratto",
+   29
+  ],
+  [
+   "Baga",
+   29
+  ],
+  [
+   "Loureiro",
+   29
+  ],
+  [
+   "Touriga Nacional-Cabernet Sauvignon",
+   28
+  ],
+  [
+   "Kerner",
+   27
+  ],
+  [
+   "Cabernet Sauvignon-Shiraz",
+   27
+  ],
+  [
+   "Dornfelder",
+   27
+  ],
+  [
+   "Auxerrois",
+   27
+  ],
+  [
+   "Picolit",
+   27
+  ],
+  [
+   "Charbono",
+   26
+  ],
+  [
+   "Rotgipfler",
+   26
+  ],
+  [
+   "Trincadeira",
+   26
+  ],
+  [
+   "Scheurebe",
+   25
+  ],
+  [
+   "Welschriesling",
+   25
+  ],
+  [
+   "Gros Manseng",
+   25
+  ],
+  [
+   "Colombard",
+   24
+  ],
+  [
+   "Tokaji",
+   24
+  ],
+  [
+   "Passerina",
+   24
+  ],
+  [
+   "Jacqu\u00e8re",
+   24
+  ],
+  [
+   "Muskat Ottonel",
+   23
+  ],
+  [
+   "Merlot-Cabernet Franc",
+   23
+  ],
+  [
+   "Gamay Noir",
+   23
+  ],
+  [
+   "Albana",
+   23
+  ],
+  [
+   "Schiava",
+   23
+  ],
+  [
+   "Bobal",
+   23
+  ],
+  [
+   "Macabeo",
+   23
+  ],
+  [
+   "Savagnin",
+   22
+  ],
+  [
+   "Verdejo-Viura",
+   22
+  ],
+  [
+   "Marsanne-Roussanne",
+   22
+  ],
+  [
+   "Tocai Friulano",
+   22
+  ],
+  [
+   "Corvina",
+   22
+  ],
+  [
+   "Xarel-lo",
+   21
+  ],
+  [
+   "Monastrell-Syrah",
+   21
+  ],
+  [
+   "Cabernet Merlot",
+   21
+  ],
+  [
+   "Cabernet Sauvignon-Cabernet Franc",
+   21
+  ],
+  [
+   "Cabernet Franc-Merlot",
+   20
+  ],
+  [
+   "Syrah-Mourv\u00e8dre",
+   20
+  ],
+  [
+   "Malbec-Syrah",
+   20
+  ],
+  [
+   "Piedirosso",
+   20
+  ],
+  [
+   "Orange Muscat",
+   20
+  ],
+  [
+   "Nero di Troia",
+   19
+  ],
+  [
+   "Lambrusco di Sorbara",
+   19
+  ],
+  [
+   "Touriga Nacional Blend",
+   19
+  ],
+  [
+   "Syrah-Viognier",
+   18
+  ],
+  [
+   "Pinot Noir-Gamay",
+   18
+  ],
+  [
+   "Assyrtiko",
+   18
+  ],
+  [
+   "Chambourcin",
+   18
+  ],
+  [
+   "Picpoul",
+   18
+  ],
+  [
+   "Cabernet Sauvignon-Malbec",
+   18
+  ],
+  [
+   "Palomino",
+   18
+  ],
+  [
+   "Lambrusco Grasparossa",
+   18
+  ],
+  [
+   "Tinto del Pais",
+   18
+  ],
+  [
+   "Colombard-Sauvignon Blanc",
+   18
+  ],
+  [
+   "Coda di Volpe",
+   18
+  ],
+  [
+   "Ant\u00e3o Vaz",
+   17
+  ],
+  [
+   "Plavac Mali",
+   17
+  ],
+  [
+   "Grenache-Carignan",
+   17
+  ],
+  [
+   "Negrette",
+   17
+  ],
+  [
+   "Hondarrabi Zuri",
+   17
+  ],
+  [
+   "Zierfandler",
+   16
+  ],
+  [
+   "Malvasia Bianca",
+   16
+  ],
+  [
+   "Malbec-Tannat",
+   16
+  ],
+  [
+   "Cabernet Franc-Cabernet Sauvignon",
+   16
+  ],
+  [
+   "Seyval Blanc",
+   16
+  ],
+  [
+   "Syrah-Petite Sirah",
+   16
+  ],
+  [
+   "Alfrocheiro",
+   16
+  ],
+  [
+   "Norton",
+   16
+  ],
+  [
+   "Raboso",
+   16
+  ],
+  [
+   "Portuguese Ros\u00e9",
+   16
+  ],
+  [
+   "Baco Noir",
+   16
+  ],
+  [
+   "Moscato Giallo",
+   16
+  ],
+  [
+   "Tannat-Cabernet Franc",
+   16
+  ],
+  [
+   "Syrah-Cabernet",
+   15
+  ],
+  [
+   "Mondeuse",
+   15
+  ],
+  [
+   "Grechetto",
+   15
+  ],
+  [
+   "Carignano",
+   15
+  ],
+  [
+   "Shiraz-Grenache",
+   15
+  ],
+  [
+   "Cabernet Sauvignon-Tempranillo",
+   15
+  ],
+  [
+   "Kalecik Karasi",
+   15
+  ],
+  [
+   "Brachetto",
+   15
+  ],
+  [
+   "Prieto Picudo",
+   15
+  ],
+  [
+   "Gaglioppo",
+   15
+  ],
+  [
+   "Grauburgunder",
+   15
+  ],
+  [
+   "Pansa Blanca",
+   14
+  ],
+  [
+   "Sauvignon Gris",
+   14
+  ],
+  [
+   "Roter Veltliner",
+   13
+  ],
+  [
+   "Bical",
+   13
+  ],
+  [
+   "Viura-Chardonnay",
+   13
+  ],
+  [
+   "Roussanne-Viognier",
+   13
+  ],
+  [
+   "Cabernet-Syrah",
+   13
+  ],
+  [
+   "Uva di Troia",
+   13
+  ],
+  [
+   "Pinot Auxerrois",
+   13
+  ],
+  [
+   "Chenin Blanc-Viognier",
+   13
+  ],
+  [
+   "Garnacha-Syrah",
+   13
+  ],
+  [
+   "White Riesling",
+   13
+  ],
+  [
+   "Viognier-Chardonnay",
+   12
+  ],
+  [
+   "Malagousia",
+   12
+  ],
+  [
+   "Ruch\u00e9",
+   12
+  ],
+  [
+   "Siria",
+   12
+  ],
+  [
+   "Muscat Blanc",
+   12
+  ],
+  [
+   "Counoise",
+   12
+  ],
+  [
+   "Vignoles",
+   11
+  ],
+  [
+   "Vidal",
+   11
+  ],
+  [
+   "Malbec-Cabernet Franc",
+   11
+  ],
+  [
+   "Refosco",
+   11
+  ],
+  [
+   "Tinta Fina",
+   11
+  ],
+  [
+   "Tinta Roriz",
+   11
+  ],
+  [
+   "Black Muscat",
+   11
+  ],
+  [
+   "Neuburger",
+   11
+  ],
+  [
+   "Tannat-Merlot",
+   11
+  ],
+  [
+   "Cabernet",
+   11
+  ],
+  [
+   "Merlot-Cabernet",
+   11
+  ],
+  [
+   "Muscadelle",
+   10
+  ],
+  [
+   "Aragon\u00eas",
+   10
+  ],
+  [
+   "Traminette",
+   10
+  ],
+  [
+   "Tocai",
+   10
+  ],
+  [
+   "Aragonez",
+   10
+  ],
+  [
+   "Perricone",
+   10
+  ],
+  [
+   "Pallagrello",
+   10
+  ],
+  [
+   "Trepat",
+   10
+  ],
+  [
+   "Grenache Blend",
+   10
+  ],
+  [
+   "Mataro",
+   10
+  ],
+  [
+   "Kekfrankos",
+   10
+  ],
+  [
+   "Ugni Blanc-Colombard",
+   9
+  ],
+  [
+   "Carignan-Grenache",
+   9
+  ],
+  [
+   "Durella",
+   9
+  ],
+  [
+   "Johannisberg Riesling",
+   9
+  ],
+  [
+   "Malvasia Istriana",
+   9
+  ],
+  [
+   "Loin de l'Oeil",
+   9
+  ],
+  [
+   "Grecanico",
+   9
+  ],
+  [
+   "Tempranillo Blanco",
+   9
+  ],
+  [
+   "Garnacha Tintorera",
+   8
+  ],
+  [
+   "Sous\u00e3o",
+   8
+  ],
+  [
+   "Cabernet Sauvignon-Sangiovese",
+   8
+  ],
+  [
+   "Manzoni",
+   8
+  ],
+  [
+   "Altesse",
+   8
+  ],
+  [
+   "Nosiola",
+   8
+  ],
+  [
+   "Sauvignon Blanc-Chardonnay",
+   8
+  ],
+  [
+   "Posip",
+   8
+  ],
+  [
+   "Chasselas",
+   8
+  ],
+  [
+   "Carmen\u00e8re-Cabernet Sauvignon",
+   8
+  ],
+  [
+   "Cesanese d'Affile",
+   8
+  ],
+  [
+   "Colombard-Ugni Blanc",
+   8
+  ],
+  [
+   "Tempranillo-Shiraz",
+   8
+  ],
+  [
+   "Okuzgozu",
+   8
+  ],
+  [
+   "Tempranillo-Merlot",
+   7
+  ],
+  [
+   "Duras",
+   7
+  ],
+  [
+   "Feteasca Neagra",
+   7
+  ],
+  [
+   "Gew\u00fcrztraminer-Riesling",
+   7
+  ],
+  [
+   "Syrah-Merlot",
+   7
+  ],
+  [
+   "Nascetta",
+   7
+  ],
+  [
+   "Chardonnay-Semillon",
+   7
+  ],
+  [
+   "Mauzac",
+   7
+  ],
+  [
+   "Trebbiano Spoletino",
+   7
+  ],
+  [
+   "Teran",
+   7
+  ],
+  [
+   "Mantonico",
+   7
+  ],
+  [
+   "Viognier-Roussanne",
+   7
+  ],
+  [
+   "Morillon",
+   7
+  ],
+  [
+   "Touriga Franca",
+   7
+  ],
+  [
+   "Tokay",
+   7
+  ],
+  [
+   "Mavrud",
+   7
+  ],
+  [
+   "Syrah-Tempranillo",
+   7
+  ],
+  [
+   "Jaen",
+   7
+  ],
+  [
+   "Narince",
+   7
+  ],
+  [
+   "Carmen\u00e8re-Syrah",
+   7
+  ],
+  [
+   "Bual",
+   7
+  ],
+  [
+   "Mission",
+   7
+  ],
+  [
+   "Verduzzo",
+   6
+  ],
+  [
+   "Avesso",
+   6
+  ],
+  [
+   "Merlot-Malbec",
+   6
+  ],
+  [
+   "Tannat-Syrah",
+   6
+  ],
+  [
+   "Pri\u00e9 Blanc",
+   6
+  ],
+  [
+   "Rieslaner",
+   6
+  ],
+  [
+   "Maturana",
+   6
+  ],
+  [
+   "Blanc du Bois",
+   6
+  ],
+  [
+   "Kisi",
+   6
+  ],
+  [
+   "Feteasc\u01ce Regal\u01ce",
+   6
+  ],
+  [
+   "Moscadello",
+   6
+  ],
+  [
+   "Valdigui\u00e9",
+   6
+  ],
+  [
+   "Chenin Blanc-Sauvignon Blanc",
+   6
+  ],
+  [
+   "Chardonnay-Sauvignon Blanc",
+   6
+  ],
+  [
+   "Chardonnay-Sauvignon",
+   6
+  ],
+  [
+   "Susumaniello",
+   6
+  ],
+  [
+   "Moscatel Roxo",
+   6
+  ],
+  [
+   "Nerello Cappuccio",
+   6
+  ],
+  [
+   "Grenache-Mourv\u00e8dre",
+   6
+  ],
+  [
+   "Pinot-Chardonnay",
+   6
+  ],
+  [
+   "Sangiovese-Cabernet Sauvignon",
+   6
+  ],
+  [
+   "Greco Bianco",
+   6
+  ],
+  [
+   "Trousseau",
+   6
+  ],
+  [
+   "Roter Traminer",
+   6
+  ],
+  [
+   "Malvasia Nera",
+   6
+  ],
+  [
+   "Garnacha-Tempranillo",
+   6
+  ],
+  [
+   "Aleatico",
+   5
+  ],
+  [
+   "Symphony",
+   5
+  ],
+  [
+   "Zierfandler-Rotgipfler",
+   5
+  ],
+  [
+   "Tinta Barroca",
+   5
+  ],
+  [
+   "S\u00e4mling",
+   5
+  ],
+  [
+   "Muskateller",
+   5
+  ],
+  [
+   "Pallagrello Bianco",
+   5
+  ],
+  [
+   "Timorasso",
+   5
+  ],
+  [
+   "Mtsvane",
+   5
+  ],
+  [
+   "Chardonnay-Pinot Blanc",
+   5
+  ],
+  [
+   "Semillon-Chardonnay",
+   5
+  ],
+  [
+   "Carine\u00f1a",
+   5
+  ],
+  [
+   "Mavrodaphne",
+   5
+  ],
+  [
+   "Sciaccerellu",
+   5
+  ],
+  [
+   "Alicante",
+   5
+  ],
+  [
+   "Casavecchia",
+   5
+  ],
+  [
+   "Roussanne-Marsanne",
+   5
+  ],
+  [
+   "Sangiovese-Syrah",
+   5
+  ],
+  [
+   "Verdejo-Sauvignon Blanc",
+   5
+  ],
+  [
+   "Braucol",
+   5
+  ],
+  [
+   "Savatiano",
+   5
+  ],
+  [
+   "Pallagrello Nero",
+   5
+  ],
+  [
+   "Syrah-Cabernet Franc",
+   5
+  ],
+  [
+   "Viosinho",
+   5
+  ],
+  [
+   "Malbec-Bonarda",
+   5
+  ],
+  [
+   "Alvarinho-Chardonnay",
+   5
+  ],
+  [
+   "Verdeca",
+   5
+  ],
+  [
+   "Monica",
+   4
+  ],
+  [
+   "Vilana",
+   4
+  ],
+  [
+   "Roditis",
+   4
+  ],
+  [
+   "Magliocco",
+   4
+  ],
+  [
+   "Muskat",
+   4
+  ],
+  [
+   "Marselan",
+   4
+  ],
+  [
+   "Edelzwicker",
+   4
+  ],
+  [
+   "Sangiovese Cabernet",
+   4
+  ],
+  [
+   "Veltliner",
+   4
+  ],
+  [
+   "Mansois",
+   4
+  ],
+  [
+   "Mazuelo",
+   4
+  ],
+  [
+   "Vranec",
+   4
+  ],
+  [
+   "Sauvignon Blanc-Chenin Blanc",
+   4
+  ],
+  [
+   "Malbec-Petit Verdot",
+   4
+  ],
+  [
+   "Grenache-Shiraz",
+   4
+  ],
+  [
+   "Pignoletto",
+   4
+  ],
+  [
+   "Emir",
+   4
+  ],
+  [
+   "Muscat Hamburg",
+   4
+  ],
+  [
+   "Fer Servadou",
+   4
+  ],
+  [
+   "Cabernet Franc-Malbec",
+   4
+  ],
+  [
+   "Macabeo-Chardonnay",
+   4
+  ],
+  [
+   "C\u00f3dega do Larinho",
+   4
+  ],
+  [
+   "Sauvignon Blanc-Verdejo",
+   4
+  ],
+  [
+   "Vinh\u00e3o",
+   4
+  ],
+  [
+   "Rolle",
+   4
+  ],
+  [
+   "Bovale",
+   4
+  ],
+  [
+   "Syrah-Carignan",
+   4
+  ],
+  [
+   "Elbling",
+   4
+  ],
+  [
+   "Pinot Blanc-Chardonnay",
+   4
+  ],
+  [
+   "Robola",
+   4
+  ],
+  [
+   "Malagouzia",
+   4
+  ],
+  [
+   "Babi\u0107",
+   4
+  ],
+  [
+   "Bo\u011fazkere",
+   4
+  ],
+  [
+   "Chinuri",
+   3
+  ],
+  [
+   "Tinta Mi\u00fada",
+   3
+  ],
+  [
+   "Muscat Blanc \u00e0 Petits Grains",
+   3
+  ],
+  [
+   "Papaskarasi",
+   3
+  ],
+  [
+   "Pugnitello",
+   3
+  ],
+  [
+   "Cerceal",
+   3
+  ],
+  [
+   "Syrah-Petit Verdot",
+   3
+  ],
+  [
+   "Asprinio",
+   3
+  ],
+  [
+   "Madeira Blend",
+   3
+  ],
+  [
+   "Grenache Noir",
+   3
+  ],
+  [
+   "Mourv\u00e8dre-Syrah",
+   3
+  ],
+  [
+   "Clairette",
+   3
+  ],
+  [
+   "Marzemino",
+   3
+  ],
+  [
+   "Merlot-Tannat",
+   3
+  ],
+  [
+   "Melnik",
+   3
+  ],
+  [
+   "Trousseau Gris",
+   3
+  ],
+  [
+   "Argaman",
+   3
+  ],
+  [
+   "Vitovska",
+   3
+  ],
+  [
+   "Debit",
+   3
+  ],
+  [
+   "Verduzzo Friulano ",
+   3
+  ],
+  [
+   "Treixadura",
+   3
+  ],
+  [
+   "Muscat d'Alexandrie",
+   3
+  ],
+  [
+   "Tinta del Toro",
+   3
+  ],
+  [
+   "Shiraz-Cabernet",
+   3
+  ],
+  [
+   "Marawi",
+   3
+  ],
+  [
+   "Ugni Blanc",
+   3
+  ],
+  [
+   "Poulsard",
+   3
+  ],
+  [
+   "Muscatel",
+   3
+  ],
+  [
+   "Ciliegiolo",
+   3
+  ],
+  [
+   "Viognier-Grenache Blanc",
+   3
+  ],
+  [
+   "Cabernet Sauvignon-Merlot-Shiraz",
+   3
+  ],
+  [
+   "Malbec-Cabernet",
+   3
+  ],
+  [
+   "Touriga",
+   3
+  ],
+  [
+   "Nuragus",
+   3
+  ],
+  [
+   "Incrocio Manzoni",
+   3
+  ],
+  [
+   "Rivaner",
+   3
+  ],
+  [
+   "Lambrusco Salamino",
+   3
+  ],
+  [
+   "Romorantin",
+   3
+  ],
+  [
+   "Malvasia-Viura",
+   3
+  ],
+  [
+   "Rebula",
+   3
+  ],
+  [
+   "Shiraz-Malbec",
+   3
+  ],
+  [
+   "Azal",
+   3
+  ],
+  [
+   "Airen",
+   3
+  ],
+  [
+   "Erbaluce",
+   3
+  ],
+  [
+   "Muscat of Alexandria",
+   3
+  ],
+  [
+   "Abouriou",
+   3
+  ],
+  [
+   "Pinot Noir-Syrah",
+   3
+  ],
+  [
+   "Nielluciu",
+   3
+  ],
+  [
+   "Garnacha-Monastrell",
+   3
+  ],
+  [
+   "Souzao",
+   3
+  ],
+  [
+   "Moscatel de Alejandr\u00eda",
+   3
+  ],
+  [
+   "Tinta Francisca",
+   3
+  ],
+  [
+   "List\u00e1n Negro",
+   3
+  ],
+  [
+   "Grolleau",
+   3
+  ],
+  [
+   "Jacquez",
+   3
+  ],
+  [
+   "Canaiolo",
+   3
+  ],
+  [
+   "Carignan-Syrah",
+   3
+  ],
+  [
+   "Malbec Blend",
+   3
+  ],
+  [
+   "Viognier-Marsanne",
+   3
+  ],
+  [
+   "Trebbiano di Lugana",
+   3
+  ],
+  [
+   "Shiraz-Mourv\u00e8dre",
+   3
+  ],
+  [
+   "Cabernet Moravia",
+   2
+  ],
+  [
+   "Cesanese",
+   2
+  ],
+  [
+   "Marsanne-Viognier",
+   2
+  ],
+  [
+   "Cabernet Franc-Carmen\u00e8re",
+   2
+  ],
+  [
+   "White Port",
+   2
+  ],
+  [
+   "Torbato",
+   2
+  ],
+  [
+   "Freisa",
+   2
+  ],
+  [
+   "H\u00e1rslevel\u00fc",
+   2
+  ],
+  [
+   "Sacy",
+   2
+  ],
+  [
+   "Tinta del Pais",
+   2
+  ],
+  [
+   "Viura-Verdejo",
+   2
+  ],
+  [
+   "Bombino Bianco",
+   2
+  ],
+  [
+   "Pigato",
+   2
+  ],
+  [
+   "Viognier-Gew\u00fcrztraminer",
+   2
+  ],
+  [
+   "Grignolino",
+   2
+  ],
+  [
+   "Rufete",
+   2
+  ],
+  [
+   "Tinta Cao",
+   2
+  ],
+  [
+   "Blauer Portugieser",
+   2
+  ],
+  [
+   "Groppello",
+   2
+  ],
+  [
+   "Alvarelh\u00e3o",
+   2
+  ],
+  [
+   "Baga-Touriga Nacional",
+   2
+  ],
+  [
+   "Rosenmuskateller",
+   2
+  ],
+  [
+   "Madeleine Angevine",
+   2
+  ],
+  [
+   "Xynisteri",
+   2
+  ],
+  [
+   "Kadarka",
+   2
+  ],
+  [
+   "Marquette",
+   2
+  ],
+  [
+   "Vespolina",
+   2
+  ],
+  [
+   "Rebo",
+   2
+  ],
+  [
+   "Tamjanika",
+   2
+  ],
+  [
+   "Bacchus",
+   2
+  ],
+  [
+   "Cari\u00f1ena-Garnacha",
+   2
+  ],
+  [
+   "Plyto",
+   2
+  ],
+  [
+   "\u00c7alkaras\u0131",
+   2
+  ],
+  [
+   "Moscatel Gra\u00fado",
+   2
+  ],
+  [
+   "Rara Neagra",
+   2
+  ],
+  [
+   "Malvasia di Candia",
+   2
+  ],
+  [
+   "Maria Gomes",
+   2
+  ],
+  [
+   "Malvar",
+   2
+  ],
+  [
+   "Portuguiser",
+   2
+  ],
+  [
+   "Muscadine",
+   2
+  ],
+  [
+   "Zlahtina",
+   2
+  ],
+  [
+   "Gouveio",
+   2
+  ],
+  [
+   "Cabernet-Shiraz",
+   2
+  ],
+  [
+   "Gragnano",
+   2
+  ],
+  [
+   "Garnacha Blend",
+   2
+  ],
+  [
+   "Bastardo",
+   2
+  ],
+  [
+   "Chardonnay Weissburgunder",
+   2
+  ],
+  [
+   "Other",
+   2
+  ],
+  [
+   "Merlot-Syrah",
+   2
+  ],
+  [
+   "Cabernet Pfeffer",
+   2
+  ],
+  [
+   "Morio Muskat",
+   2
+  ],
+  [
+   "Rabigato",
+   2
+  ],
+  [
+   "Roviello",
+   2
+  ],
+  [
+   "Yapincak",
+   2
+  ],
+  [
+   "Mandilaria",
+   2
+  ],
+  [
+   "Saperavi-Merlot",
+   2
+  ],
+  [
+   "Albarossa",
+   2
+  ],
+  [
+   "Cabernet Sauvignon Grenache",
+   2
+  ],
+  [
+   "T\u0103m\u00e2ioas\u0103 Rom\u00e2neasc\u0103",
+   2
+  ],
+  [
+   "Black Monukka",
+   2
+  ],
+  [
+   "Tempranillo-Syrah",
+   2
+  ],
+  [
+   "Uvalino",
+   2
+  ],
+  [
+   "Cayuga",
+   2
+  ],
+  [
+   "Moscato Rosa",
+   2
+  ],
+  [
+   "Chelois",
+   2
+  ],
+  [
+   "Shiraz-Tempranillo",
+   2
+  ],
+  [
+   "Ansonica",
+   2
+  ],
+  [
+   "Durif",
+   2
+  ],
+  [
+   "Malbec-Tempranillo",
+   2
+  ],
+  [
+   "Nasco",
+   2
+  ],
+  [
+   "Monastrell-Petit Verdot",
+   2
+  ],
+  [
+   "Sirica",
+   2
+  ],
+  [
+   "Apple",
+   2
+  ],
+  [
+   "Feteasca",
+   2
+  ],
+  [
+   "Malvasia Fina",
+   2
+  ],
+  [
+   "Chancellor",
+   2
+  ],
+  [
+   "Cabernet Franc-Lemberger",
+   2
+  ],
+  [
+   "Chardonnay-Albari\u00f1o",
+   2
+  ],
+  [
+   "Trollinger",
+   2
+  ],
+  [
+   "Fr\u00fcburgunder",
+   1
+  ],
+  [
+   "Merlot-Argaman",
+   1
+  ],
+  [
+   "Kinali Yapincak",
+   1
+  ],
+  [
+   "Albanello",
+   1
+  ],
+  [
+   "Ojaleshi",
+   1
+  ],
+  [
+   "Morava",
+   1
+  ],
+  [
+   "Carcajolu",
+   1
+  ],
+  [
+   "Loureiro-Arinto",
+   1
+  ],
+  [
+   "Cercial",
+   1
+  ],
+  [
+   "Kangoun",
+   1
+  ],
+  [
+   "Karasakiz",
+   1
+  ],
+  [
+   "Pa\u00eds",
+   1
+  ],
+  [
+   "Diamond",
+   1
+  ],
+  [
+   "Siegerrebe",
+   1
+  ],
+  [
+   "Ekiga\u00efna",
+   1
+  ],
+  [
+   "Tempranillo-Tannat",
+   1
+  ],
+  [
+   "Barbera-Nebbiolo",
+   1
+  ],
+  [
+   "Piquepoul Blanc",
+   1
+  ],
+  [
+   "Sauvignon-S\u00e9millon",
+   1
+  ],
+  [
+   "Verdil",
+   1
+  ],
+  [
+   "Forcall\u00e0",
+   1
+  ],
+  [
+   "Cabernet Sauvignon-Barbera",
+   1
+  ],
+  [
+   "Prunelard",
+   1
+  ],
+  [
+   "Gros Plant",
+   1
+  ],
+  [
+   "Chardonnay-Pinot Gris",
+   1
+  ],
+  [
+   "Irsai Oliver",
+   1
+  ],
+  [
+   "Zelen",
+   1
+  ],
+  [
+   "Tsolikouri",
+   1
+  ],
+  [
+   "Mavroudi",
+   1
+  ],
+  [
+   "Pinot Blanc-Pinot Noir",
+   1
+  ],
+  [
+   "Pinot Gris-Gew\u00fcrztraminer",
+   1
+  ],
+  [
+   "Tinto Velasco",
+   1
+  ],
+  [
+   "Sauvignon Musqu\u00e9",
+   1
+  ],
+  [
+   "Terrantez",
+   1
+  ],
+  [
+   "Do\u00f1a Blanca",
+   1
+  ],
+  [
+   "Gra\u0161evina",
+   1
+  ],
+  [
+   "Thrapsathiri",
+   1
+  ],
+  [
+   "Cococciola",
+   1
+  ],
+  [
+   "Blauburgunder",
+   1
+  ],
+  [
+   "Tempranillo-Malbec",
+   1
+  ],
+  [
+   "Syrah-Malbec",
+   1
+  ],
+  [
+   "Macabeo-Moscatel",
+   1
+  ],
+  [
+   "Sideritis",
+   1
+  ],
+  [
+   "Moschofilero-Chardonnay",
+   1
+  ],
+  [
+   "Paralleda",
+   1
+  ],
+  [
+   "Molinara",
+   1
+  ],
+  [
+   "Verdosilla",
+   1
+  ],
+  [
+   "Vespaiolo",
+   1
+  ],
+  [
+   "Malbec-Carm\u00e9n\u00e8re",
+   1
+  ],
+  [
+   "Biancolella",
+   1
+  ],
+  [
+   "Aidani",
+   1
+  ],
+  [
+   "Orangetraube",
+   1
+  ],
+  [
+   "Riesling-Chardonnay",
+   1
+  ],
+  [
+   "\u017dilavka",
+   1
+  ],
+  [
+   "Pinotage-Merlot",
+   1
+  ],
+  [
+   "Maria Gomes-Bical",
+   1
+  ],
+  [
+   "Syrah-Grenache-Viognier",
+   1
+  ],
+  [
+   "Bombino Nero",
+   1
+  ],
+  [
+   "Chardonnay-Riesling",
+   1
+  ],
+  [
+   "Malagouzia-Chardonnay",
+   1
+  ],
+  [
+   "Mavrotragano",
+   1
+  ],
+  [
+   "Frankovka",
+   1
+  ],
+  [
+   "Shiraz-Roussanne",
+   1
+  ],
+  [
+   "Schwartzriesling",
+   1
+  ],
+  [
+   "Petit Meslier",
+   1
+  ],
+  [
+   "Vidadillo",
+   1
+  ],
+  [
+   "Misket",
+   1
+  ],
+  [
+   "Merlot-Shiraz",
+   1
+  ],
+  [
+   "Folle Blanche",
+   1
+  ],
+  [
+   "Tamianka",
+   1
+  ],
+  [
+   "Sauvignonasse",
+   1
+  ],
+  [
+   "Meseguera",
+   1
+  ],
+  [
+   "Pinot Blanc-Viognier",
+   1
+  ],
+  [
+   "Teroldego Rotaliano",
+   1
+  ],
+  [
+   "Biancu Gentile",
+   1
+  ],
+  [
+   "Xinisteri",
+   1
+  ],
+  [
+   "Sauvignon Blanc-Sauvignon Gris",
+   1
+  ],
+  [
+   "Ryzlink R\u00fdnsk\u00fd",
+   1
+  ],
+  [
+   "Merlot-Grenache",
+   1
+  ],
+  [
+   "Vranac",
+   1
+  ],
+  [
+   "Chardonel",
+   1
+  ],
+  [
+   "Silvaner-Traminer",
+   1
+  ],
+  [
+   "Merseguera-Sauvignon Blanc",
+   1
+  ],
+  [
+   "Cabernet-Malbec",
+   1
+  ],
+  [
+   "Gelber Traminer",
+   1
+  ],
+  [
+   "Vermentino Nero",
+   1
+  ],
+  [
+   "Tinta Amarela",
+   1
+  ],
+  [
+   "Tinta Negra Mole",
+   1
+  ],
+  [
+   "Sauvignon Blanc-Assyrtiko",
+   1
+  ],
+  [
+   "",
+   1
+  ],
+  [
+   "Muscadel",
+   1
+  ],
+  [
+   "Roussanne-Grenache Blanc",
+   1
+  ],
+  [
+   "Biancale",
+   1
+  ],
+  [
+   "Syrah-Bonarda",
+   1
+  ],
+  [
+   "Franconia",
+   1
+  ],
+  [
+   "Vital",
+   1
+  ],
+  [
+   "Espadeiro",
+   1
+  ],
+  [
+   "Pinot Grigio-Sauvignon Blanc",
+   1
+  ],
+  [
+   "Blatina",
+   1
+  ],
+  [
+   "Karalahna",
+   1
+  ],
+  [
+   "Sercial",
+   1
+  ],
+  [
+   "Valvin Muscat",
+   1
+  ],
+  [
+   "Roditis-Moschofilero",
+   1
+  ],
+  [
+   "St. Vincent",
+   1
+  ],
+  [
+   "Premsal",
+   1
+  ],
+  [
+   "Jampal",
+   1
+  ],
+  [
+   "Tokay Pinot Gris",
+   1
+  ],
+  [
+   "Colorino",
+   1
+  ],
+  [
+   "Picapoll",
+   1
+  ],
+  [
+   "Blauburger",
+   1
+  ],
+  [
+   "Tinta Madeira",
+   1
+  ],
+  [
+   "Centesimino",
+   1
+  ],
+  [
+   "Grenache Gris",
+   1
+  ],
+  [
+   "Trajadura",
+   1
+  ],
+  [
+   "Merlot-Petite Verdot",
+   1
+  ],
+  [
+   "Ramisco",
+   1
+  ],
+  [
+   "Catalanesca",
+   1
+  ],
+  [
+   "Garnacha-Cabernet",
+   1
+  ],
+  [
+   "Garnacha-Cari\u00f1ena",
+   1
+  ],
+  [
+   "Gamza",
+   1
+  ],
+  [
+   "Mavrokalavryta",
+   1
+  ],
+  [
+   "Favorita",
+   1
+  ],
+  [
+   "Babosa Negro",
+   1
+  ],
+  [
+   "Tintilia ",
+   1
+  ],
+  [
+   "Dafni",
+   1
+  ],
+  [
+   "Petit Courbu",
+   1
+  ],
+  [
+   "Kotsifali",
+   1
+  ],
+  [
+   "Parraleta",
+   1
+  ],
+  [
+   "Moscato di Noto",
+   1
+  ],
+  [
+   "Roscetto",
+   1
+  ],
+  [
+   "Torontel",
+   1
+  ],
+  [
+   "Otskhanuri Sapere",
+   1
+  ],
+  [
+   "Viognier-Valdigui\u00e9",
+   1
+  ],
+  [
+   "Tsapournakos",
+   1
+  ],
+  [
+   "Francisa",
+   1
+  ],
+  [
+   "Kuntra",
+   1
+  ],
+  [
+   "Pignolo",
+   1
+  ],
+  [
+   "Caprettone",
+   1
+  ],
+  [
+   "Ondenc",
+   1
+  ],
+  [
+   "Athiri",
+   1
+  ],
+  [
+   "Bobal-Cabernet Sauvignon",
+   1
+  ]
+ ]
+}

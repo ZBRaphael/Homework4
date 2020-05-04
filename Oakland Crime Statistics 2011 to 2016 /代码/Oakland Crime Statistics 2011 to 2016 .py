@@ -3,10 +3,7 @@
 
 # # Oakland Crime Statistics 2011 to 2016 
 
-# ## 数据预处理
-# 首先对数据进行预处理，将时间的单词
-
-# In[26]:
+# In[1]:
 
 
 import numpy as np # linear algebra
@@ -27,7 +24,11 @@ import os
 print('\n'.join(os.listdir("./oakland-crime-statistics-2011-to-2016/")))
 
 
-# In[34]:
+# ## 数据预处理
+# 
+# 首先对数据进行预处理，将时间的换算成秒，将时间划分成几个时间段，并且将数据中的空值直接去除。
+
+# In[2]:
 
 
 intervals = (
@@ -82,7 +83,7 @@ def prep_data(df):
     return df
 
 
-# In[37]:
+# In[3]:
 
 
 
@@ -135,22 +136,22 @@ crimes_2011.head(2)
 
 # - 2012年数据
 
-# In[16]:
+# In[6]:
 
 
 crimes_2012 = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2012.csv")
 crimes_2012.dropna(thresh=9, inplace=True)
 crimes_2012 = prep_data(crimes_2012)
 crimes_2012.rename(index=str, columns={"Location ": "address"}, inplace=True)
-crimes_2012["Area Id"] = crimes_2013["Area Id"].astype(int)
+crimes_2012["Area Id"] = crimes_2012["Area Id"].astype(int)
 crimes_2012["Priority"].replace(0.0, 1.0, inplace=True)
-crimes_2012["Priority"] = crimes_2013["Priority"].astype(int)
+crimes_2012["Priority"] = crimes_2012["Priority"].astype(int)
 crimes_2012.head(2)
 
 
 # - 2013年数据
 
-# In[14]:
+# In[7]:
 
 
 crimes_2013 = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2013.csv")
@@ -165,7 +166,7 @@ crimes_2013.head(2)
 
 # - 2014年数据
 
-# In[17]:
+# In[8]:
 
 
 crimes_2014 = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2014.csv")
@@ -180,7 +181,7 @@ crimes_2014.head(2)
 
 # - 2015年数据
 
-# In[18]:
+# In[9]:
 
 
 crimes_2015 = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2015.csv")
@@ -195,7 +196,7 @@ crimes_2015.head(2)
 
 # - 2016年数据
 
-# In[24]:
+# In[10]:
 
 
 crimes_2016 = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2016.csv")
@@ -241,6 +242,8 @@ def box_plot(all_data):
     plt.show()
 
 
+# ### 每年犯罪持续时间盒图
+
 # In[101]:
 
 
@@ -280,44 +283,6 @@ for row in ax:
         i += 1
 
 
-# In[44]:
-
-
-fig, ax = plt.subplots(nrows=2, ncols=3)
-plt.subplots_adjust(left=0, right=2.5, top=3, bottom=1)
-i = 0
-for row in ax:
-    for col in row:
-        col.set_title(str(2011 + i))
-        temp = crimes_list[i].groupby(by=["Beat", "Priority"],sort=True, as_index=False).count().rename(index=str, columns={"Create Time": "Count"})[["Beat", "Priority", "Count", "time_of_the_day"]]
-        beats_prio_1 = list(temp[temp["Priority"] == 1].nlargest(5, "Count")["Beat"].values)
-        beats_prio_2 = list(temp[temp["Priority"] == 2].nlargest(5, "Count")["Beat"].values)
-        sns.countplot(data=crimes_list[i][crimes_list[i]["Beat"].isin(beats_prio_1 + beats_prio_2)], x="Beat", hue="time_of_the_day",palette="Set1", ax=col)
-        i += 1
-
-
-# In[47]:
-
-
-for i, x in enumerate(crimes_list):
-    x["Year"] = 2011 + i
-combined = crimes_2011
-for x in range(1,len(crimes_list)):
-    combined = combined.append(crimes_list[x], ignore_index=True)
-combined.tail(5)
-
-
-# In[48]:
-
-
-temp = combined.groupby(by=["Year", "Priority"]).mean()
-prio_1 = temp.loc[list(zip(range(2011,2017),[1.0] * 6))]["time_between_creation_and_closed_seconds"]
-prio_2 = temp.loc[list(zip(range(2011,2017),[2.0] * 6))]["time_between_creation_and_closed_seconds"]
-plt.plot(range(2011, 2017),prio_1, marker='o', markerfacecolor='black', markersize=8, color='skyblue', linewidth=2, label="Avg Closing Time Priority 1")
-plt.plot(range(2011, 2017), prio_2, marker='*',color="red", markersize=10, markerfacecolor='black', linewidth=2, label="Avg Closing Time Priority 2")
-plt.legend()
-
-
 # ### 每年的报警数量
 
 # In[27]:
@@ -333,8 +298,6 @@ for row in ax:
         sns.countplot(data=crimes_list[i], x="Priority", ax=col, palette="Set1")
         i+=1
 
-
-# ### 每年犯罪持续时间盒图
 
 # ### 每年报警的时间段分布
 
@@ -353,62 +316,267 @@ for row in ax:
 
 # 从上述的图中可以看出优先级为1的案件少，优先级为2的案件多，案件的高发时间段为12PM-6PM
 
-# In[29]:
+# ## 缺失数据的处理
+
+# In[64]:
 
 
-fig, ax = plt.subplots(nrows=2, ncols=3)
-plt.subplots_adjust(left=0, right=2.5, top=3, bottom=1)
-i = 0
-nlargest = [set(get_nlargest_incident_id(10, x)) for x in crimes_list]
-print("From 2011 to 2016 Top 10 Common Incident Types are: {}".format(str(set.intersection(*nlargest))))
-for row in ax:
-    for col in row:
-        col.set_title(str(2011 + i))
-        sns.countplot(data=crimes_list[i].loc[crimes_list[i]['Incident Type Id'].isin(nlargest[i])], x="Incident Type Id", hue="Priority", palette="Set1", ax=col)
-        i += 1
+crimes_2011_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2011.csv", keep_default_na=False)
+crimes_2011_miss.head(2)
 
 
-# In[36]:
+# In[19]:
 
 
-fig, ax = plt.subplots(nrows=2, ncols=3)
-plt.subplots_adjust(left=0, right=2.5, top=3, bottom=1)
-i = 0
-area_nlargest = [set(get_nlargest_area_id(10, x)) for x in crimes_list]
-print("From 2011 to 2016 Top 10 Common Area Id are: {}".format(str(set.intersection(*area_nlargest))))
-for row in ax:
-    for col in row:
-        col.set_title(str(2011 + i))
-        sns.countplot(data=crimes_list[i].loc[crimes_list[i]['Area Id'].isin(area_nlargest[i])], x="Area Id", hue="Priority", palette="Set1", ax=col)
-        i += 1
+crimes_2012_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2012.csv", keep_default_na=False)
+crimes_2012_miss.head(2)
 
 
-# In[41]:
+# In[20]:
 
 
-fig, ax = plt.subplots(nrows=6, ncols=3)
-plt.subplots_adjust(left=0, right=3, top=12, bottom=0)
-i_list = 0
-for i, row in enumerate(ax):
-    for j, col in enumerate(row):
-        year_string = str(2011 + i)
-        
-        if j == 1:
-            month_or_day = 'Day of The Month'
-            title = year_string+ '\n' + month_or_day +'\n Crime Count'
-            col.set_title(title)
-            col.set_xticklabels(col.get_xticklabels(), rotation=90)
-            sns.countplot(data=crimes_list[i_list], x="day_of_the_month" ,palette="Set1", ax=col)
-        elif j == 2:
-            month_or_day = 'Month of The Year'
-            title = year_string + '\n' + month_or_day +'\n Crime Count'
-            col.set_title(title)
-            sns.countplot(data=crimes_list[i_list], x="month_of_the_year",palette="Set1", ax=col)
-        else:
-            month_or_day = 'Day of The Week'
-            title = year_string+ '\n' + month_or_day +'\n Crime Count'
-            col.set_title(title)
-            sns.countplot(data=crimes_list[i_list], x="day_of_the_week" ,palette="Set1", ax=col)
-            
-    i_list += 1
+crimes_2013_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2013.csv", keep_default_na=False)
+crimes_2013_miss.head(2)
 
+
+# In[21]:
+
+
+crimes_2014_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2014.csv", keep_default_na=False)
+crimes_2014_miss.head(2)
+
+
+# In[22]:
+
+
+crimes_2015_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2015.csv", keep_default_na=False)
+crimes_2015_miss.head(2)
+
+
+# In[23]:
+
+
+crimes_2016_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2016.csv", keep_default_na=False)
+crimes_2016_miss.head(2)
+
+
+# In[116]:
+
+
+def loaddata():
+    crimes_2011_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2011.csv", keep_default_na=False)
+
+    crimes_2012_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2012.csv", keep_default_na=False)
+
+    crimes_2013_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2013.csv", keep_default_na=False)
+
+    crimes_2014_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2014.csv", keep_default_na=False)
+
+    crimes_2015_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2015.csv", keep_default_na=False)
+
+    crimes_2016_miss = pd.read_csv("./oakland-crime-statistics-2011-to-2016/records-for-2016.csv", keep_default_na=False)
+
+    miss_list = [crimes_2011_miss,crimes_2012_miss,crimes_2013_miss,crimes_2014_miss,crimes_2015_miss,crimes_2016_miss]
+    
+    return miss_list
+def countbeat():
+    fig, ax = plt.subplots(nrows=2, ncols=3)
+    plt.subplots_adjust(left=0, right=2.5, top=3, bottom=1)
+    i = 0
+    for row in ax:
+        for col in row:
+            col.set_title(str(2011 + i))
+            sns.countplot(x="Beat", data=miss_list[i],ax=col, palette="Set1") 
+            i+=1
+
+
+# In[27]:
+
+
+def count_ana(pd,col):
+    countana = 0
+    for i in pd[col]:
+        if i == '':
+            countana += 1
+    return countana    
+
+
+# In[58]:
+
+
+miss_list = [crimes_2011_miss,crimes_2012_miss,crimes_2013_miss,crimes_2014_miss,crimes_2015_miss,crimes_2016_miss]
+for dataset in miss_list:
+    count = count_ana(dataset,"Priority")
+    print(count)
+# count_priority
+
+
+# Priority字段几乎无缺失值
+
+# In[59]:
+
+
+for dataset in miss_list:
+    count = count_ana(dataset,"Incident Type Id")
+    print(count)
+
+
+# Incident Type Id字段也无缺失
+
+# In[60]:
+
+
+for dataset in miss_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
+
+
+# 我们选择对“Beat”进行缺失值的填充
+# ### 直接将缺失的数值剔除
+# 在数据上部分的数据预处理过程中，已经将缺失的数据删除
+
+# In[61]:
+
+
+crimes_list = [crimes_2011, crimes_2012, crimes_2013, crimes_2014, crimes_2015, crimes_2016]
+
+for dataset in crimes_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
+
+
+# ### 用频数最大的值进行填充
+
+# In[55]:
+
+
+maxcount = []
+for pd in crimes_list:
+    count = pd["Beat"].value_counts()
+#     maxcount.append(count)
+    print(count.iloc[:1])
+# print(maxcount)
+
+
+# 我们发现每年的数据中出现频率最高的是04X，所以用04X进行填充
+# 
+
+# In[117]:
+
+
+miss_list = loaddata()
+print(len(miss_list))
+for dataset in miss_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
+
+
+# In[118]:
+
+
+countbeat()
+
+
+# In[119]:
+
+
+for dataset in miss_list:
+    for i in range(len(dataset["Beat"])):
+        if dataset["Beat"][i] == '':
+            dataset["Beat"][i] = "04X"
+
+
+# In[120]:
+
+
+for dataset in miss_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
+
+
+# In[121]:
+
+
+countbeat()
+
+
+# ### 使用与空缺值相邻的值进行填充
+
+# In[122]:
+
+
+miss_list = loaddata()
+for dataset in miss_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
+
+
+# In[124]:
+
+
+for dataset in miss_list:
+    for i in range(len(dataset["Beat"])):
+        if dataset["Beat"][i] == '':
+            for j in range(5):
+                if dataset["Beat"][i-j] != '':
+                    dataset["Beat"][i] = dataset["Beat"][i-j]
+
+
+# In[125]:
+
+
+for dataset in miss_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
+
+
+# In[126]:
+
+
+countbeat()
+
+
+# ### 通过数据对象之间的相似性来填补缺失值
+
+# In[127]:
+
+
+miss_list = loaddata()
+for dataset in miss_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
+
+
+# In[130]:
+
+
+for dataset in miss_list: 
+    beatdataset = dataset["Beat"]
+    typedataset = dataset["Incident Type Id"]
+    dir_type_beat = {}
+    for i in range(len(beatdataset)):
+        if beatdataset[i] != '':
+            dir_type_beat[typedataset[i]] =  beatdataset[i]
+    for i in range(len(beatdataset)):
+        if beatdataset[i] == '':
+            if typedataset[i] not in dir_type_beat.keys():
+                beatdataset[i] = "04X"
+            else:
+                beatdataset[i] = dir_type_beat[typedataset[i]]
+
+
+# In[131]:
+
+
+for dataset in miss_list:
+    count = count_ana(dataset,"Beat")
+    print(count)
+
+
+# In[132]:
+
+
+countbeat()
+
+
+# 由于缺失的值只占很少的部分所以对于频数分布来说并没有什么很大的变化
